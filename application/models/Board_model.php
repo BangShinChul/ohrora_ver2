@@ -46,8 +46,6 @@ class Board_model extends CI_Model{
 
         //게시물 내용 반환
         return $this->db->get_where('board', array('board_id' => $id))->row();
-    	
-    	
     }
 
     # 게시물 입력
@@ -70,9 +68,42 @@ class Board_model extends CI_Model{
     }
 
 
-    # 내가 다시만듬
-    function insert_board2(){
 
+    /**
+     * 게시물 수정
+     * 
+     * @param array $arrays 테이블 명, 게시물 번호, 게시물 제목, 게시물 내용
+     * @return boolean 성공 여부
+     */
+    function modify_board($arrays){
+        $modify_array = array(
+            'subject' => $arrays['subject'],
+            'contents' => $arrays['contents']
+        );
+
+        $where = array(
+            'board_id' => $arrays['board_id']
+        );
+
+        $result = $this->db->update($arrays['table'], $modify_array, $where);
+        return $result;
     }
+
+     /*
+     * 게시물 삭제
+     * 
+     * @param string $table 테이블 명
+     * @param string $no 게시물 번호
+     * @return boolean 성공 여부
+     * 
+     */
+    function delete_board($id){
+        $delete_id = array(
+            'board_id' => $id
+        );
+        $result = $this->db->delete('board',$delete_id);
+        return $result;
+    }
+
 }
 ?>

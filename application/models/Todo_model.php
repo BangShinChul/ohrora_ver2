@@ -35,5 +35,6 @@ class Todo_model extends CI_Model{
 		$this->db->delete('items');
 		# delete from items where id = $id;
 	}
+
 }
 ?>

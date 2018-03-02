@@ -196,14 +196,79 @@ class Board extends CI_Controller{
         }
     }
 
-    function board_write2(){
-        if($_POST){
 
+    # 게시물 수정
+    function board_modify(){
+        echo '<meta http-equiv="content-type" content="text/html; charset=utf-8" />';
+
+        if($_POST){
+            $this->load->helper('alert'); # alert 헬퍼 소환
+
+            # url을 배열로 변환하여 가져옴            
+            $uri_array = $this->segment_explode($this->uri->uri_string());
+
+            # $uri_array 중 page라는 값이 있을 경우
+            if( in_array('page', $uri_array)) {
+                $pages = urldecode($this->url_explode($uri_array,'page'));
+            }else{
+                $pages = 1;
+            }
+
+            # 만약 post타입으로 넘어온 값중에 subject 혹은 contents가 없을 경우
+            if( !$this->input->post('subject', TRUE) AND !$this->input->post('contents', TRUE) ){
+                alert('비정상적인 접근입니다.', '/index.php/board/board_lists/page/'.$pages);
+                exit;
+            }
+
+            # modify_data를 받아서 배열에 쌓음
+            /*
+                table: DB 테이블명
+                board_id: 게시글 id / url상에 나와있는 게시글 id 세그먼트 가져옴
+                subject: 제목 / post타입으로 받은 파라미터 중 subject값 가져옴
+                contents: 내용 / post타입으로 받은 파라미터 중 contents값 가져옴
+            */
+            $modify_data = array(
+                'table' => 'board',
+                'board_id' => $this->uri->segment(3),
+                'subject' => $this->input->post('subject', TRUE),
+                'contents' => $this->input->post('contents', TRUE)
+            );
+
+            # 위에서 세팅한 수정값 배열가지고 모델로 넘김
+            $result = $this->board_model->modify_board($modify_data);
+
+            if( $result ){
+                alert('수정되었습니다.', '/index.php/board/view/'.$modify_data['board_id']);
+                exit;
+            }else{
+                alert('에러가 발생했습니다. 다시 수정해주세요.', '/index.php/board/view/'.$modify_data['board_id']);
+                exit;
+            }
 
         }else{
-            # 쓰기 폼 view 호출
-            $this->load->view('/board/board_write_page');
+            # POST로 넘어온 값이 없을 경우 modify 뷰를 보여줌
+            $data['views'] = $this->board_model->get_view('board',$this->uri->segment(3));
+            $this->load->view('board/board_modify_page', $data);
         }
+
     }
+
+    # 게시물 삭제
+    function board_delete(){
+        $this->load->helper('alert'); # alert 헬퍼 소환
+
+        $id = $this->uri->segment(3);
+        $result = $this->board_model->delete_board($id);
+
+        if( $result ){
+            alert('게시글이 삭제 되었습니다.', '/index.php/board/board_lists/');
+            exit;
+        }else{
+            alert('에러가 발생했습니다. 다시 시도해주세요.', '/index.php/board/view/'.$id);
+            exit;
+        }
+
+    }
+
 
 }

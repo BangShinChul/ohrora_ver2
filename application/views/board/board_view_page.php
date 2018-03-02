@@ -22,8 +22,8 @@
             <tr>
                 <th colspan="4">
                     <a href="/index.php/board/board_lists" class="btn btn-primary">목록 </a>
-                    <a href="/index.php/board/board_modify/board_id/<?php echo $this -> uri -> segment(4); ?>/page/<?php echo $this -> uri -> segment(7); ?>" class="btn btn-warning"> 수정 </a>
-                    <a href="/index.php/board/board_delete/board_id/<?php echo $this -> uri -> segment(5); ?>/page/<?php echo $this -> uri -> segment(7); ?>" class="btn btn-danger"> 삭제 </a>
+                    <a href="/index.php/board/board_modify/<?php echo $this -> uri -> segment(3);?>" class="btn btn-warning"> 수정 </a>
+                    <a href="/index.php/board/board_delete/<?php echo $this -> uri -> segment(3);?>" class="btn btn-danger"> 삭제 </a>
                     <a href="/index.php/board/board_write" class="btn btn-success">쓰기</a>                    
                 </th>
             </tr>
