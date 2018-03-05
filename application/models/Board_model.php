@@ -57,7 +57,7 @@ class Board_model extends CI_Model{
         $insert_array = array(
             'board_pid' => 0,
             'user_id' => 'advisor',
-            'user_name' => 'noname',
+            'user_name' => $arrays['user_id'],
             'subject' => $arrays['subject'],
             'contents' => $arrays['contents'],
             'reg_date' => date("Y-m-d H:i:s")

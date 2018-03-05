@@ -186,6 +186,7 @@ class Board extends CI_Controller{
                 $write_data = array(
                     'subject' => $this->input->post('subject', TRUE),
                     'contents' => $this->input->post('contents', TRUE),
+                    'user_id' => $this->session->userdata('user_id'),
                     'table' => 'board'
                 );
 
