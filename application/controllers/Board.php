@@ -9,6 +9,8 @@ class Board extends CI_Controller{
         $this->load->database(); //database 라이브러리 로드
         $this->load->model('board_model'); 
         $this->load->helper(array('url','date')); #helper 로드
+
+        $this->load->library('form_validation'); //validation 라이브러리 로드
     }
 
     public function index(){
@@ -153,46 +155,53 @@ class Board extends CI_Controller{
     function board_write(){
         echo '<meta http-equiv="content-type" content="text/html; charset=utf-8" />';
 
-        if($_POST){
-            # 글쓰기 POST 전송 시 
+        $this->form_validation->set_rules('subject', '제목', 'required');
+        $this->form_validation->set_rules('contents', '내용', 'required');
 
-            $this->load->helper('alert');
-
-            # 주소중에서 page 세그먼트가 있는지 검사하기 위해 주소를 배열로 반환
-            $uri_array = $this->segment_explode($this->uri->uri_string());
-
-            if(in_array('page', $uri_array)) {
-                $pages = urldecode($this->url_explode($uri_array, 'page'));
-            }else{
-                $pages = 1;
-            }
-
-            if(!$this->input->post('subject', TRUE) AND !$this->input->post('contents', TRUE)) {
-                # 글내용이 없을 경우, 프로그램 단에서 한번 더 체크 
-                alert('비정상적인 접근입니다.', '/index.php/board/board_lists/page/'.$pages);
-                exit;
-            }
-
-            # var_dump($_POST);
-            # DB에 넣을 값들을 배열로 만듦
-            $write_data = array(
-                'subject' => $this->input->post('subject', TRUE),
-                'contents' => $this->input->post('contents', TRUE),
-                'table' => 'board'
-            );
-
-            $result = $this->board_model->insert_board($write_data);
-
-            if($result){
-                alert("게시글이 입력되었습니다.",'/index.php/board/board_lists/page/'.$pages);
-                exit;
-            }else{
-                alert("게시글을 업로드하는 중 오류가 발생했습니다. 다시 입력해주세요.",'/index.php/board/board_lists/page/'.$pages);
-                exit;
-            }
-        }else {
-            # 쓰기 폼 view 호출
+        if($this->form_validation->run() == FALSE){
             $this->load->view('/board/board_write_page');
+        }else{
+            if($_POST){
+                # 글쓰기 POST 전송 시 
+
+                $this->load->helper('alert');
+
+                # 주소중에서 page 세그먼트가 있는지 검사하기 위해 주소를 배열로 반환
+                $uri_array = $this->segment_explode($this->uri->uri_string());
+
+                if(in_array('page', $uri_array)) {
+                    $pages = urldecode($this->url_explode($uri_array, 'page'));
+                }else{
+                    $pages = 1;
+                }
+
+                if(!$this->input->post('subject', TRUE) AND !$this->input->post('contents', TRUE)) {
+                    # 글내용이 없을 경우, 프로그램 단에서 한번 더 체크 
+                    alert('비정상적인 접근입니다.', '/index.php/board/board_lists/page/'.$pages);
+                    exit;
+                }
+
+                # var_dump($_POST);
+                # DB에 넣을 값들을 배열로 만듦
+                $write_data = array(
+                    'subject' => $this->input->post('subject', TRUE),
+                    'contents' => $this->input->post('contents', TRUE),
+                    'table' => 'board'
+                );
+
+                $result = $this->board_model->insert_board($write_data);
+
+                if($result){
+                    alert("게시글이 입력되었습니다.",'/index.php/board/board_lists/page/'.$pages);
+                    exit;
+                }else{
+                    alert("게시글을 업로드하는 중 오류가 발생했습니다. 다시 입력해주세요.",'/index.php/board/board_lists/page/'.$pages);
+                    exit;
+                }
+            }else {
+                # 쓰기 폼 view 호출
+                $this->load->view('/board/board_write_page');
+            }            
         }
     }
 

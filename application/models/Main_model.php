@@ -26,7 +26,7 @@ class Main_model extends CI_Model{
 		# return $this->db->qurey('SELECT * FROM topic WHERE id='.$topic_id)->result(); 와 똑같은 것임.
 	}
 
-	public function get_login($id){
+	public function account_check($id){
 		return $this->db->get_where('userinfo', array('user_id' => $id))->row();
 	}
 

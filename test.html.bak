@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <title>Test</title>
+ </head>
+ <body>
+	<script>
+		var def_price = 500;
+		var sell_price;
+		var qty;
+
+		$(document).ready(function(){
+			alert("start");
+			
+
+
+			// init 함수 동작
+			init();
+
+			//sell price와 qty 값 가져옴
+			sell_price = $('#sell_price').val();
+			qty = $('#qty').val();
+
+			alert("sell_price : "+sell_price+" | qty : "+qty);
+		});
+
+		function init(){
+			// sell_price와 qty값 초기세팅
+			$('#sell_price').attr('value',def_price);
+			$('#qty').attr('value',1);
+
+			sell_price = $('#sell_price').val();
+			// price에 sell_price 값 넣어줌
+			$("#price").attr('value',def_price);
+		}
+
+		function add (){
+			
+			qty++;
+
+			$('#qty').attr('value',qty);
+			$('#sell_price').attr('value',qty * def_price);
+			
+			sell_price = $('#sell_price').val();
+
+			//qty.value ++;
+			//sell_price.value = hm.value * sell_price;
+			alert("price change : "+ sell_price);
+			$('#price').attr('value',sell_price);
+		}
+
+		function del () {
+			/*
+			hm = document.form.amount;
+			sum = document.form.sum;
+			if( hm.value > 1){
+				hm.value --;
+				sum.value = hm.value * sell_price;
+				alert("sum val : "+ sum.value);
+			}
+			*/
+			qty--;
+			$('#qty').attr('value',qty);
+			$('#sell_price').attr('value',qty * def_price);
+			sell_price = $('#sell_price').val();
+			alert("price change : "+ sell_price);
+			$('#price').attr('value',sell_price);
+		}
+
+		$('#qty').change(function(){
+			qty = $('qty').val();
+			$('#sell_price').attr('value',qty * def_price);
+			sell_price = $('#sell_price').val();
+			$('#price').attr('value',sell_price);
+			alert("price change : "+ sell_price);
+		
+		});
+
+		function change () {
+			/*
+			hm = document.form.amount;
+			sum = document.form.sum;
+
+			if(hm.value < 0){
+				hm.value = 0;
+			}
+			sum.valule = parseInt(hm.value) * sell_price;
+			*/
+
+			qty_check = $('qty').val();
+			qty = (int)qty_check;
+
+			$('#sell_price').attr('value',qty * def_price);
+			sell_price = $('#sell_price').val();
+			$('#price').attr('value',sell_price);
+			alert("price change : "+ sell_price);
+		}
+
+	</script>
+
+	<form name="form" method="get">
+		<td align="center">
+			<input type="text" name="price" id="price" value="" readonly/>
+		</td>
+
+		<td align="center">
+			<input type="hidden" name="sell_price" id="sell_price" value="0"/>
+			<input type="text" name="qty" id="qty" value="0" onchange="change();"/>
+			<input type="button" value="+" id="plus" onclick="add();"/>
+			<input type="button" value="-" id="minus" onclick="del();"/>
+		</td>
+	</form>
+ </body>
+
+</html>

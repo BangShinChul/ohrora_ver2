@@ -1,7 +1,7 @@
 	<div id="body" class="container-fixed" style="text-align: center;">
 		<a class="brand">회원가입 페이지입니다.</a>
 		<?php echo validation_errors(); ?>
-		<form action="/index.php/main/get_account" method="post">
+		<form action="/index.php/account/create_account" method="post">
 			<input type="text" id="id" name="id" value="" placeholder="ID"/>
 			<br>
 			<input type="password" id="password" name="password" value="" placeholder="PASSWORD"/><br>

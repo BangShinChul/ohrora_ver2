@@ -48,11 +48,21 @@
                    ?>
                 </tbody>
                 <tfoot>
+
+                    <?php 
+                        if(@$this->session->userdata('logged_in') == TRUE) :
+                    ?>
                     <tr>
                         <th colspan="4"><a href="/index.php/todo/todo_write/" class="btn btn-success">
                             쓰기
                         </a></th>
                     </tr>
+                    <?php else : ?>
+                    <tr>
+                        <th colspan="4">TODO를 작성하시려면 <a href="/index.php/auth/get_login">로그인</a>이 필요합니다.</th>
+                    </tr>
+                    <?php endif; ?>
+
                 </tfoot>
             </table>
             <div><p></p></div>

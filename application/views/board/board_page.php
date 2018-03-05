@@ -59,7 +59,16 @@ foreach($list as $lt)
             </tr>
             <tr>
                 <td colspan="5">
+                    
+                    <?php 
+                        if(@$this->session->userdata('logged_in') == TRUE) :
+                    ?>
                     <a href="/index.php/board/board_write/" class="btn btn-success">글쓰기</a>
+                    <?php
+                        else : 
+                    ?>
+                    게시글을 작성하시려면 <a href="/index.php/auth/get_login">로그인</a>이 필요합니다.</th>
+                    <?php endif; ?>
                 </td>
             </tr>
         </tfoot>

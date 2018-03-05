@@ -22,9 +22,13 @@
             <tr>
                 <th colspan="4">
                     <a href="/index.php/board/board_lists" class="btn btn-primary">목록 </a>
+
+                    <?php 
+                        if( (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == $views -> user_name) || (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == 'admin') ) :
+                    ?>
                     <a href="/index.php/board/board_modify/<?php echo $this -> uri -> segment(3);?>" class="btn btn-warning"> 수정 </a>
                     <a href="/index.php/board/board_delete/<?php echo $this -> uri -> segment(3);?>" class="btn btn-danger"> 삭제 </a>
-                    <a href="/index.php/board/board_write" class="btn btn-success">쓰기</a>                    
+                    <?php endif; ?>
                 </th>
             </tr>
         </tfoot>

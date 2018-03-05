@@ -326,7 +326,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'bbs_system';
 
 /*
 |--------------------------------------------------------------------------
@@ -382,10 +382,18 @@ $config['encryption_key'] = '';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = '/session';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
+
+# session 정보 저장을 위한 config 설정
+$config['sess_expire_on_close'] = FALSE;
+$config['sess_encrypt_cookie'] = FALSE;
+$config['sess_use_database'] = TRUE;
+$config['sess_table_name'] = 'ci_sessions';
+$config['sess_match_useragent'] = TRUE;
+
 
 /*
 |--------------------------------------------------------------------------

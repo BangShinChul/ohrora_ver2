@@ -40,6 +40,10 @@
                     </p>
                 </div>
 
+                <div class="controls">
+                    <p class="help-block"><?php echo validation_errors(); ?></p>
+                </div>
+
                 <div class="form-actions">
                     <button type="submit" class="btn btn-primary" id="write_btn">작성</button>
                     <button class="btn" onclick="document.location.reload()">취소</button>

@@ -102,9 +102,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<li>
 						<a href="/index.php/main/">Home</a>
 					</li>
+					
+					<?php 
+						if(@$this->session->userdata('logged_in') == TRUE) :
+					?>
 					<li>
-						<a href="/index.php/main/get_login" class="do_login">Login</a>
+						<a href="/index.php/auth/get_logout" class="do_logout">Logout</a>
 					</li>
+					<?php 
+						else : 
+					?>
+					<li>
+						<a href="/index.php/auth/" class="do_login">Login</a>
+					</li>
+					<?php endif; ?>
+					
 					<li>
 						<a href="/index.php/todo/">TODO</a>
 					</li>
