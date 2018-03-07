@@ -33,23 +33,16 @@ class Board_comment extends CI_Controller{
                 'board_id' => $board_id
             );
 
+            $comment_id = 0;
+
             $latest_comment_id = $this->board_model->get_latest_comment_id($array_for_id); 
 
-            echo '<script>';
-            echo 'console.log('.json_encode($latest_comment_id).')';
-            echo '</script>';
-
-            // $comment_id = 0;
-
-            // $latest_comment_id_result = json_decode($latest_comment_id, TRUE);
-
             if($latest_comment_id){
-                echo '<script>alert("check latest comment id : '.var_dump($latest_comment_id).'");</script>';
-                $comment_id = (int)$latest_comment_id + 1;
+                $comment_id = (int)$latest_comment_id['comment_id'] + 1;
             }else{
                 $comment_id = 1;
             }
-
+            
             if($comment_contents != ''){
 
                 $write_data = array(
@@ -109,6 +102,6 @@ class Board_comment extends CI_Controller{
             // 로그인 필요 에러
             echo "9000";
         }
-
+        
     }
 }

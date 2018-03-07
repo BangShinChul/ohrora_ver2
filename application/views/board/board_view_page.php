@@ -92,6 +92,7 @@ $(document).ready(function(){
     <?php 
     endif;
     ?>
+    <p>댓글 <?php echo $views -> comments; ?></p>
     <div id="comment_area">
         <table cellpadding="0" cellspacing="0" class="table table-striped">
             <tbody>

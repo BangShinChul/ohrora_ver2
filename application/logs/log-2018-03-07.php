@@ -3000,3 +3000,1472 @@ INFO - 2018-03-07 09:04:19 --> Output Class Initialized
 INFO - 2018-03-07 09:04:19 --> Security Class Initialized
 DEBUG - 2018-03-07 09:04:19 --> Global POST, GET and COOKIE data sanitized
 INFO - 2018-03-07 09:04:19 --> CSRF cookie sent
+INFO - 2018-03-07 09:22:49 --> Config Class Initialized
+INFO - 2018-03-07 09:22:49 --> Hooks Class Initialized
+DEBUG - 2018-03-07 09:22:49 --> UTF-8 Support Enabled
+INFO - 2018-03-07 09:22:49 --> Utf8 Class Initialized
+INFO - 2018-03-07 09:22:49 --> URI Class Initialized
+INFO - 2018-03-07 09:22:49 --> Router Class Initialized
+INFO - 2018-03-07 09:22:49 --> Output Class Initialized
+INFO - 2018-03-07 09:22:49 --> Security Class Initialized
+DEBUG - 2018-03-07 09:22:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 09:22:49 --> CSRF cookie sent
+INFO - 2018-03-07 09:22:49 --> Input Class Initialized
+INFO - 2018-03-07 09:22:49 --> Language Class Initialized
+INFO - 2018-03-07 09:22:49 --> Loader Class Initialized
+INFO - 2018-03-07 09:22:49 --> Database Driver Class Initialized
+INFO - 2018-03-07 09:22:49 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 09:22:49 --> Controller Class Initialized
+INFO - 2018-03-07 09:22:49 --> Model "Board_model" initialized
+INFO - 2018-03-07 09:22:49 --> Helper loaded: url_helper
+INFO - 2018-03-07 09:22:49 --> Helper loaded: date_helper
+INFO - 2018-03-07 09:22:49 --> Helper loaded: form_helper
+INFO - 2018-03-07 09:22:49 --> Form Validation Class Initialized
+INFO - 2018-03-07 09:22:49 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 09:22:49 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 09:22:49 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 09:22:49 --> Final output sent to browser
+DEBUG - 2018-03-07 09:22:49 --> Total execution time: 0.2857
+INFO - 2018-03-07 09:22:55 --> Config Class Initialized
+INFO - 2018-03-07 09:22:55 --> Hooks Class Initialized
+DEBUG - 2018-03-07 09:22:55 --> UTF-8 Support Enabled
+INFO - 2018-03-07 09:22:55 --> Utf8 Class Initialized
+INFO - 2018-03-07 09:22:55 --> URI Class Initialized
+INFO - 2018-03-07 09:22:55 --> Router Class Initialized
+INFO - 2018-03-07 09:22:55 --> Output Class Initialized
+INFO - 2018-03-07 09:22:55 --> Security Class Initialized
+DEBUG - 2018-03-07 09:22:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 09:22:55 --> CSRF cookie sent
+INFO - 2018-03-07 09:22:55 --> CSRF token verified
+INFO - 2018-03-07 09:22:55 --> Input Class Initialized
+INFO - 2018-03-07 09:22:55 --> Language Class Initialized
+INFO - 2018-03-07 09:22:55 --> Loader Class Initialized
+INFO - 2018-03-07 09:22:55 --> Database Driver Class Initialized
+INFO - 2018-03-07 09:22:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 09:22:55 --> Controller Class Initialized
+INFO - 2018-03-07 09:22:55 --> Model "Board_model" initialized
+INFO - 2018-03-07 09:22:55 --> Helper loaded: url_helper
+INFO - 2018-03-07 09:22:55 --> Helper loaded: date_helper
+INFO - 2018-03-07 09:22:55 --> Helper loaded: form_helper
+INFO - 2018-03-07 09:22:55 --> Form Validation Class Initialized
+ERROR - 2018-03-07 09:22:55 --> Severity: Notice --> Trying to get property 'comment_id' of non-object C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 48
+ERROR - 2018-03-07 09:22:55 --> Query error: Duplicate entry '17_1' for key 'PRIMARY' - Invalid query: INSERT INTO `board_comment` (`board_id`, `comment_id`, `comment_pk`, `user_id`, `comment_contents`, `reg_date`) VALUES ('17', 1, '17_1', 'bsc', '테스트 3', '2018-03-07 09:22:55')
+INFO - 2018-03-07 09:22:55 --> Language file loaded: language/english/db_lang.php
+INFO - 2018-03-07 09:24:57 --> Config Class Initialized
+INFO - 2018-03-07 09:24:57 --> Hooks Class Initialized
+DEBUG - 2018-03-07 09:24:57 --> UTF-8 Support Enabled
+INFO - 2018-03-07 09:24:57 --> Utf8 Class Initialized
+INFO - 2018-03-07 09:24:57 --> URI Class Initialized
+INFO - 2018-03-07 09:24:57 --> Router Class Initialized
+INFO - 2018-03-07 09:24:57 --> Output Class Initialized
+INFO - 2018-03-07 09:24:57 --> Security Class Initialized
+DEBUG - 2018-03-07 09:24:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 09:24:57 --> CSRF cookie sent
+INFO - 2018-03-07 09:24:57 --> Input Class Initialized
+INFO - 2018-03-07 09:24:57 --> Language Class Initialized
+INFO - 2018-03-07 09:24:57 --> Loader Class Initialized
+INFO - 2018-03-07 09:24:57 --> Database Driver Class Initialized
+INFO - 2018-03-07 09:24:57 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 09:24:57 --> Controller Class Initialized
+INFO - 2018-03-07 09:24:57 --> Model "Board_model" initialized
+INFO - 2018-03-07 09:24:57 --> Helper loaded: url_helper
+INFO - 2018-03-07 09:24:57 --> Helper loaded: date_helper
+INFO - 2018-03-07 09:24:57 --> Helper loaded: form_helper
+INFO - 2018-03-07 09:24:57 --> Form Validation Class Initialized
+INFO - 2018-03-07 09:24:57 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 09:24:57 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 09:24:57 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 09:24:57 --> Final output sent to browser
+DEBUG - 2018-03-07 09:24:57 --> Total execution time: 0.2784
+INFO - 2018-03-07 09:25:00 --> Config Class Initialized
+INFO - 2018-03-07 09:25:00 --> Hooks Class Initialized
+DEBUG - 2018-03-07 09:25:00 --> UTF-8 Support Enabled
+INFO - 2018-03-07 09:25:00 --> Utf8 Class Initialized
+INFO - 2018-03-07 09:25:00 --> URI Class Initialized
+INFO - 2018-03-07 09:25:00 --> Router Class Initialized
+INFO - 2018-03-07 09:25:00 --> Output Class Initialized
+INFO - 2018-03-07 09:25:00 --> Security Class Initialized
+DEBUG - 2018-03-07 09:25:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 09:25:00 --> CSRF cookie sent
+INFO - 2018-03-07 09:25:00 --> CSRF token verified
+INFO - 2018-03-07 09:25:00 --> Input Class Initialized
+INFO - 2018-03-07 09:25:00 --> Language Class Initialized
+INFO - 2018-03-07 09:25:00 --> Loader Class Initialized
+INFO - 2018-03-07 09:25:00 --> Database Driver Class Initialized
+INFO - 2018-03-07 09:25:00 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 09:25:00 --> Controller Class Initialized
+INFO - 2018-03-07 09:25:00 --> Model "Board_model" initialized
+INFO - 2018-03-07 09:25:00 --> Helper loaded: url_helper
+INFO - 2018-03-07 09:25:00 --> Helper loaded: date_helper
+INFO - 2018-03-07 09:25:00 --> Helper loaded: form_helper
+INFO - 2018-03-07 09:25:00 --> Form Validation Class Initialized
+ERROR - 2018-03-07 09:25:00 --> Severity: Notice --> Trying to get property 'comment_id' of non-object C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 48
+ERROR - 2018-03-07 09:25:00 --> Query error: Duplicate entry '17_1' for key 'PRIMARY' - Invalid query: INSERT INTO `board_comment` (`board_id`, `comment_id`, `comment_pk`, `user_id`, `comment_contents`, `reg_date`) VALUES ('17', 1, '17_1', 'bsc', '테스트 3', '2018-03-07 09:25:00')
+INFO - 2018-03-07 09:25:00 --> Language file loaded: language/english/db_lang.php
+INFO - 2018-03-07 18:27:56 --> Config Class Initialized
+INFO - 2018-03-07 18:27:56 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:27:56 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:27:56 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:27:56 --> URI Class Initialized
+DEBUG - 2018-03-07 18:27:56 --> No URI present. Default controller set.
+INFO - 2018-03-07 18:27:56 --> Router Class Initialized
+INFO - 2018-03-07 18:27:56 --> Output Class Initialized
+INFO - 2018-03-07 18:27:56 --> Security Class Initialized
+DEBUG - 2018-03-07 18:27:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:27:56 --> CSRF cookie sent
+INFO - 2018-03-07 18:27:56 --> Input Class Initialized
+INFO - 2018-03-07 18:27:56 --> Language Class Initialized
+INFO - 2018-03-07 18:27:56 --> Loader Class Initialized
+INFO - 2018-03-07 18:27:56 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:27:56 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:27:56 --> Controller Class Initialized
+INFO - 2018-03-07 18:27:56 --> Model "Main_model" initialized
+INFO - 2018-03-07 18:27:56 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:27:56 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:27:56 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:27:56 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\home/home_page.php
+INFO - 2018-03-07 18:27:56 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:27:56 --> Final output sent to browser
+DEBUG - 2018-03-07 18:27:56 --> Total execution time: 0.2663
+INFO - 2018-03-07 18:27:59 --> Config Class Initialized
+INFO - 2018-03-07 18:27:59 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:27:59 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:27:59 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:27:59 --> URI Class Initialized
+INFO - 2018-03-07 18:27:59 --> Router Class Initialized
+INFO - 2018-03-07 18:27:59 --> Output Class Initialized
+INFO - 2018-03-07 18:27:59 --> Security Class Initialized
+DEBUG - 2018-03-07 18:27:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:27:59 --> CSRF cookie sent
+INFO - 2018-03-07 18:27:59 --> Input Class Initialized
+INFO - 2018-03-07 18:27:59 --> Language Class Initialized
+INFO - 2018-03-07 18:27:59 --> Loader Class Initialized
+INFO - 2018-03-07 18:27:59 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:27:59 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:27:59 --> Controller Class Initialized
+INFO - 2018-03-07 18:27:59 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:27:59 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:27:59 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:27:59 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:27:59 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:27:59 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:27:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:27:59 --> Pagination Class Initialized
+INFO - 2018-03-07 18:27:59 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:27:59 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:27:59 --> Final output sent to browser
+DEBUG - 2018-03-07 18:27:59 --> Total execution time: 0.3284
+INFO - 2018-03-07 18:28:02 --> Config Class Initialized
+INFO - 2018-03-07 18:28:02 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:28:02 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:28:02 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:28:02 --> URI Class Initialized
+INFO - 2018-03-07 18:28:02 --> Router Class Initialized
+INFO - 2018-03-07 18:28:02 --> Output Class Initialized
+INFO - 2018-03-07 18:28:02 --> Security Class Initialized
+DEBUG - 2018-03-07 18:28:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:28:02 --> CSRF cookie sent
+INFO - 2018-03-07 18:28:02 --> Input Class Initialized
+INFO - 2018-03-07 18:28:02 --> Language Class Initialized
+INFO - 2018-03-07 18:28:02 --> Loader Class Initialized
+INFO - 2018-03-07 18:28:02 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:28:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:28:02 --> Controller Class Initialized
+INFO - 2018-03-07 18:28:02 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:28:02 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:28:02 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:28:02 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:28:02 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:28:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:28:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:28:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:28:02 --> Final output sent to browser
+DEBUG - 2018-03-07 18:28:02 --> Total execution time: 0.2787
+INFO - 2018-03-07 18:28:06 --> Config Class Initialized
+INFO - 2018-03-07 18:28:06 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:28:06 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:28:06 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:28:06 --> URI Class Initialized
+INFO - 2018-03-07 18:28:06 --> Router Class Initialized
+INFO - 2018-03-07 18:28:06 --> Output Class Initialized
+INFO - 2018-03-07 18:28:06 --> Security Class Initialized
+DEBUG - 2018-03-07 18:28:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:28:06 --> CSRF cookie sent
+INFO - 2018-03-07 18:28:06 --> CSRF token verified
+INFO - 2018-03-07 18:28:06 --> Input Class Initialized
+INFO - 2018-03-07 18:28:06 --> Language Class Initialized
+INFO - 2018-03-07 18:28:06 --> Loader Class Initialized
+INFO - 2018-03-07 18:28:07 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:28:07 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:28:07 --> Controller Class Initialized
+INFO - 2018-03-07 18:28:07 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:28:07 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:28:07 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:28:07 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:28:07 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:28:07 --> Severity: Notice --> Trying to get property 'comment_id' of non-object C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 48
+ERROR - 2018-03-07 18:28:07 --> Query error: Duplicate entry '17_1' for key 'PRIMARY' - Invalid query: INSERT INTO `board_comment` (`board_id`, `comment_id`, `comment_pk`, `user_id`, `comment_contents`, `reg_date`) VALUES ('17', 1, '17_1', 'bsc', '테스트 3', '2018-03-07 18:28:07')
+INFO - 2018-03-07 18:28:07 --> Language file loaded: language/english/db_lang.php
+INFO - 2018-03-07 18:29:13 --> Config Class Initialized
+INFO - 2018-03-07 18:29:13 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:29:14 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:29:14 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:29:14 --> URI Class Initialized
+INFO - 2018-03-07 18:29:14 --> Router Class Initialized
+INFO - 2018-03-07 18:29:14 --> Output Class Initialized
+INFO - 2018-03-07 18:29:14 --> Security Class Initialized
+DEBUG - 2018-03-07 18:29:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:29:14 --> CSRF cookie sent
+INFO - 2018-03-07 18:29:14 --> Input Class Initialized
+INFO - 2018-03-07 18:29:14 --> Language Class Initialized
+INFO - 2018-03-07 18:29:14 --> Loader Class Initialized
+INFO - 2018-03-07 18:29:14 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:29:14 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:29:14 --> Controller Class Initialized
+INFO - 2018-03-07 18:29:14 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:29:14 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:29:14 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:29:14 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:29:14 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:29:14 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:29:14 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:29:14 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:29:14 --> Final output sent to browser
+DEBUG - 2018-03-07 18:29:14 --> Total execution time: 0.2885
+INFO - 2018-03-07 18:29:17 --> Config Class Initialized
+INFO - 2018-03-07 18:29:17 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:29:17 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:29:17 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:29:17 --> URI Class Initialized
+INFO - 2018-03-07 18:29:17 --> Router Class Initialized
+INFO - 2018-03-07 18:29:17 --> Output Class Initialized
+INFO - 2018-03-07 18:29:17 --> Security Class Initialized
+DEBUG - 2018-03-07 18:29:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:29:17 --> CSRF cookie sent
+INFO - 2018-03-07 18:29:17 --> CSRF token verified
+INFO - 2018-03-07 18:29:17 --> Input Class Initialized
+INFO - 2018-03-07 18:29:17 --> Language Class Initialized
+INFO - 2018-03-07 18:29:17 --> Loader Class Initialized
+INFO - 2018-03-07 18:29:17 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:29:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:29:17 --> Controller Class Initialized
+INFO - 2018-03-07 18:29:17 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:29:17 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:29:17 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:29:17 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:29:17 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:29:17 --> Severity: Notice --> Undefined index: comment_id C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 48
+ERROR - 2018-03-07 18:29:17 --> Query error: Duplicate entry '17_1' for key 'PRIMARY' - Invalid query: INSERT INTO `board_comment` (`board_id`, `comment_id`, `comment_pk`, `user_id`, `comment_contents`, `reg_date`) VALUES ('17', 1, '17_1', 'bsc', '테스트 3', '2018-03-07 18:29:17')
+INFO - 2018-03-07 18:29:17 --> Language file loaded: language/english/db_lang.php
+INFO - 2018-03-07 18:30:26 --> Config Class Initialized
+INFO - 2018-03-07 18:30:26 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:30:26 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:30:26 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:30:26 --> URI Class Initialized
+INFO - 2018-03-07 18:30:26 --> Router Class Initialized
+INFO - 2018-03-07 18:30:26 --> Output Class Initialized
+INFO - 2018-03-07 18:30:26 --> Security Class Initialized
+DEBUG - 2018-03-07 18:30:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:30:26 --> CSRF cookie sent
+INFO - 2018-03-07 18:30:26 --> Input Class Initialized
+INFO - 2018-03-07 18:30:26 --> Language Class Initialized
+INFO - 2018-03-07 18:30:26 --> Loader Class Initialized
+INFO - 2018-03-07 18:30:26 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:30:26 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:30:26 --> Controller Class Initialized
+INFO - 2018-03-07 18:30:26 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:30:27 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:30:27 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:30:27 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:30:27 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:30:27 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:30:27 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:30:27 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:30:27 --> Final output sent to browser
+DEBUG - 2018-03-07 18:30:27 --> Total execution time: 0.3081
+INFO - 2018-03-07 18:30:30 --> Config Class Initialized
+INFO - 2018-03-07 18:30:30 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:30:30 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:30:30 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:30:30 --> URI Class Initialized
+INFO - 2018-03-07 18:30:30 --> Router Class Initialized
+INFO - 2018-03-07 18:30:30 --> Output Class Initialized
+INFO - 2018-03-07 18:30:30 --> Security Class Initialized
+DEBUG - 2018-03-07 18:30:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:30:30 --> CSRF cookie sent
+INFO - 2018-03-07 18:30:30 --> CSRF token verified
+INFO - 2018-03-07 18:30:30 --> Input Class Initialized
+INFO - 2018-03-07 18:30:30 --> Language Class Initialized
+ERROR - 2018-03-07 18:30:30 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 113
+INFO - 2018-03-07 18:31:12 --> Config Class Initialized
+INFO - 2018-03-07 18:31:12 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:31:12 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:31:12 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:31:12 --> URI Class Initialized
+INFO - 2018-03-07 18:31:12 --> Router Class Initialized
+INFO - 2018-03-07 18:31:12 --> Output Class Initialized
+INFO - 2018-03-07 18:31:13 --> Security Class Initialized
+DEBUG - 2018-03-07 18:31:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:31:13 --> CSRF cookie sent
+INFO - 2018-03-07 18:31:13 --> Input Class Initialized
+INFO - 2018-03-07 18:31:13 --> Language Class Initialized
+INFO - 2018-03-07 18:31:13 --> Loader Class Initialized
+INFO - 2018-03-07 18:31:13 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:31:13 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:31:13 --> Controller Class Initialized
+INFO - 2018-03-07 18:31:13 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:31:13 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:31:13 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:31:13 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:31:13 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:31:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:31:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:31:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:31:13 --> Final output sent to browser
+DEBUG - 2018-03-07 18:31:13 --> Total execution time: 0.2817
+INFO - 2018-03-07 18:31:13 --> Config Class Initialized
+INFO - 2018-03-07 18:31:13 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:31:13 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:31:13 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:31:13 --> URI Class Initialized
+INFO - 2018-03-07 18:31:13 --> Router Class Initialized
+INFO - 2018-03-07 18:31:13 --> Output Class Initialized
+INFO - 2018-03-07 18:31:13 --> Security Class Initialized
+DEBUG - 2018-03-07 18:31:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:31:13 --> CSRF cookie sent
+INFO - 2018-03-07 18:31:13 --> Input Class Initialized
+INFO - 2018-03-07 18:31:13 --> Language Class Initialized
+INFO - 2018-03-07 18:31:13 --> Loader Class Initialized
+INFO - 2018-03-07 18:31:13 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:31:13 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:31:13 --> Controller Class Initialized
+INFO - 2018-03-07 18:31:13 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:31:13 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:31:13 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:31:13 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:31:13 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:31:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:31:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:31:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:31:13 --> Final output sent to browser
+DEBUG - 2018-03-07 18:31:13 --> Total execution time: 0.3051
+INFO - 2018-03-07 18:31:16 --> Config Class Initialized
+INFO - 2018-03-07 18:31:16 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:31:16 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:31:16 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:31:16 --> URI Class Initialized
+INFO - 2018-03-07 18:31:16 --> Router Class Initialized
+INFO - 2018-03-07 18:31:16 --> Output Class Initialized
+INFO - 2018-03-07 18:31:16 --> Security Class Initialized
+DEBUG - 2018-03-07 18:31:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:31:16 --> CSRF cookie sent
+INFO - 2018-03-07 18:31:16 --> CSRF token verified
+INFO - 2018-03-07 18:31:17 --> Input Class Initialized
+INFO - 2018-03-07 18:31:17 --> Language Class Initialized
+INFO - 2018-03-07 18:31:17 --> Loader Class Initialized
+INFO - 2018-03-07 18:31:17 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:31:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:31:17 --> Controller Class Initialized
+INFO - 2018-03-07 18:31:17 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:31:17 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:31:17 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:31:17 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:31:17 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:31:17 --> Final output sent to browser
+DEBUG - 2018-03-07 18:31:17 --> Total execution time: 0.2737
+INFO - 2018-03-07 18:31:48 --> Config Class Initialized
+INFO - 2018-03-07 18:31:48 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:31:48 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:31:48 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:31:48 --> URI Class Initialized
+INFO - 2018-03-07 18:31:48 --> Router Class Initialized
+INFO - 2018-03-07 18:31:48 --> Output Class Initialized
+INFO - 2018-03-07 18:31:48 --> Security Class Initialized
+DEBUG - 2018-03-07 18:31:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:31:48 --> CSRF cookie sent
+INFO - 2018-03-07 18:31:48 --> Input Class Initialized
+INFO - 2018-03-07 18:31:48 --> Language Class Initialized
+INFO - 2018-03-07 18:31:48 --> Loader Class Initialized
+INFO - 2018-03-07 18:31:48 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:31:48 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:31:48 --> Controller Class Initialized
+INFO - 2018-03-07 18:31:48 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:31:48 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:31:48 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:31:48 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:31:48 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:31:48 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:31:48 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:31:48 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:31:48 --> Final output sent to browser
+DEBUG - 2018-03-07 18:31:48 --> Total execution time: 0.2929
+INFO - 2018-03-07 18:31:52 --> Config Class Initialized
+INFO - 2018-03-07 18:31:52 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:31:52 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:31:52 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:31:52 --> URI Class Initialized
+INFO - 2018-03-07 18:31:52 --> Router Class Initialized
+INFO - 2018-03-07 18:31:52 --> Output Class Initialized
+INFO - 2018-03-07 18:31:52 --> Security Class Initialized
+DEBUG - 2018-03-07 18:31:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:31:52 --> CSRF cookie sent
+INFO - 2018-03-07 18:31:52 --> CSRF token verified
+INFO - 2018-03-07 18:31:52 --> Input Class Initialized
+INFO - 2018-03-07 18:31:52 --> Language Class Initialized
+INFO - 2018-03-07 18:31:52 --> Loader Class Initialized
+INFO - 2018-03-07 18:31:52 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:31:52 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:31:52 --> Controller Class Initialized
+INFO - 2018-03-07 18:31:52 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:31:52 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:31:53 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:31:53 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:31:53 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:31:53 --> Severity: Notice --> Undefined index: comment_id C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 47
+INFO - 2018-03-07 18:31:53 --> Final output sent to browser
+DEBUG - 2018-03-07 18:31:53 --> Total execution time: 0.2624
+INFO - 2018-03-07 18:32:17 --> Config Class Initialized
+INFO - 2018-03-07 18:32:17 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:32:17 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:32:17 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:32:17 --> URI Class Initialized
+INFO - 2018-03-07 18:32:17 --> Router Class Initialized
+INFO - 2018-03-07 18:32:17 --> Output Class Initialized
+INFO - 2018-03-07 18:32:17 --> Security Class Initialized
+DEBUG - 2018-03-07 18:32:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:32:17 --> CSRF cookie sent
+INFO - 2018-03-07 18:32:17 --> Input Class Initialized
+INFO - 2018-03-07 18:32:17 --> Language Class Initialized
+INFO - 2018-03-07 18:32:17 --> Loader Class Initialized
+INFO - 2018-03-07 18:32:17 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:32:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:32:17 --> Controller Class Initialized
+INFO - 2018-03-07 18:32:17 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:32:17 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:32:17 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:32:17 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:32:17 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:32:17 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:32:17 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:32:17 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:32:17 --> Final output sent to browser
+DEBUG - 2018-03-07 18:32:17 --> Total execution time: 0.2694
+INFO - 2018-03-07 18:32:20 --> Config Class Initialized
+INFO - 2018-03-07 18:32:20 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:32:20 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:32:20 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:32:20 --> URI Class Initialized
+INFO - 2018-03-07 18:32:20 --> Router Class Initialized
+INFO - 2018-03-07 18:32:20 --> Output Class Initialized
+INFO - 2018-03-07 18:32:20 --> Security Class Initialized
+DEBUG - 2018-03-07 18:32:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:32:20 --> CSRF cookie sent
+INFO - 2018-03-07 18:32:20 --> CSRF token verified
+INFO - 2018-03-07 18:32:20 --> Input Class Initialized
+INFO - 2018-03-07 18:32:20 --> Language Class Initialized
+INFO - 2018-03-07 18:32:20 --> Loader Class Initialized
+INFO - 2018-03-07 18:32:20 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:32:20 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:32:20 --> Controller Class Initialized
+INFO - 2018-03-07 18:32:20 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:32:20 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:32:20 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:32:21 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:32:21 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:32:21 --> Severity: Notice --> Trying to get property 'comment_id' of non-object C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 47
+INFO - 2018-03-07 18:32:21 --> Final output sent to browser
+DEBUG - 2018-03-07 18:32:21 --> Total execution time: 0.2608
+INFO - 2018-03-07 18:32:41 --> Config Class Initialized
+INFO - 2018-03-07 18:32:41 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:32:41 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:32:41 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:32:41 --> URI Class Initialized
+INFO - 2018-03-07 18:32:41 --> Router Class Initialized
+INFO - 2018-03-07 18:32:41 --> Output Class Initialized
+INFO - 2018-03-07 18:32:41 --> Security Class Initialized
+DEBUG - 2018-03-07 18:32:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:32:41 --> CSRF cookie sent
+INFO - 2018-03-07 18:32:41 --> Input Class Initialized
+INFO - 2018-03-07 18:32:41 --> Language Class Initialized
+INFO - 2018-03-07 18:32:41 --> Loader Class Initialized
+INFO - 2018-03-07 18:32:41 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:32:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:32:41 --> Controller Class Initialized
+INFO - 2018-03-07 18:32:41 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:32:41 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:32:41 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:32:41 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:32:41 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:32:41 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:32:41 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:32:41 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:32:41 --> Final output sent to browser
+DEBUG - 2018-03-07 18:32:41 --> Total execution time: 0.2886
+INFO - 2018-03-07 18:32:44 --> Config Class Initialized
+INFO - 2018-03-07 18:32:44 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:32:44 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:32:44 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:32:44 --> URI Class Initialized
+INFO - 2018-03-07 18:32:44 --> Router Class Initialized
+INFO - 2018-03-07 18:32:44 --> Output Class Initialized
+INFO - 2018-03-07 18:32:44 --> Security Class Initialized
+DEBUG - 2018-03-07 18:32:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:32:44 --> CSRF cookie sent
+INFO - 2018-03-07 18:32:44 --> CSRF token verified
+INFO - 2018-03-07 18:32:44 --> Input Class Initialized
+INFO - 2018-03-07 18:32:44 --> Language Class Initialized
+INFO - 2018-03-07 18:32:44 --> Loader Class Initialized
+INFO - 2018-03-07 18:32:44 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:32:44 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:32:44 --> Controller Class Initialized
+INFO - 2018-03-07 18:32:44 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:32:44 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:32:44 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:32:44 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:32:44 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:32:44 --> Severity: Notice --> Trying to get property 'comment_id' of non-object C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 47
+INFO - 2018-03-07 18:32:44 --> Final output sent to browser
+DEBUG - 2018-03-07 18:32:44 --> Total execution time: 0.2867
+INFO - 2018-03-07 18:33:02 --> Config Class Initialized
+INFO - 2018-03-07 18:33:02 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:33:02 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:33:02 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:33:02 --> URI Class Initialized
+INFO - 2018-03-07 18:33:02 --> Router Class Initialized
+INFO - 2018-03-07 18:33:02 --> Output Class Initialized
+INFO - 2018-03-07 18:33:02 --> Security Class Initialized
+DEBUG - 2018-03-07 18:33:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:33:02 --> CSRF cookie sent
+INFO - 2018-03-07 18:33:02 --> Input Class Initialized
+INFO - 2018-03-07 18:33:02 --> Language Class Initialized
+INFO - 2018-03-07 18:33:02 --> Loader Class Initialized
+INFO - 2018-03-07 18:33:02 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:33:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:33:02 --> Controller Class Initialized
+INFO - 2018-03-07 18:33:02 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:33:02 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:33:02 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:33:02 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:33:02 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:33:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:33:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:33:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:33:02 --> Final output sent to browser
+DEBUG - 2018-03-07 18:33:02 --> Total execution time: 0.2977
+INFO - 2018-03-07 18:33:13 --> Config Class Initialized
+INFO - 2018-03-07 18:33:13 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:33:13 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:33:13 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:33:13 --> URI Class Initialized
+INFO - 2018-03-07 18:33:13 --> Router Class Initialized
+INFO - 2018-03-07 18:33:13 --> Output Class Initialized
+INFO - 2018-03-07 18:33:13 --> Security Class Initialized
+DEBUG - 2018-03-07 18:33:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:33:13 --> CSRF cookie sent
+INFO - 2018-03-07 18:33:13 --> Input Class Initialized
+INFO - 2018-03-07 18:33:13 --> Language Class Initialized
+INFO - 2018-03-07 18:33:13 --> Loader Class Initialized
+INFO - 2018-03-07 18:33:13 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:33:13 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:33:13 --> Controller Class Initialized
+INFO - 2018-03-07 18:33:13 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:33:13 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:33:13 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:33:13 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:33:13 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:33:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:33:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:33:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:33:13 --> Final output sent to browser
+DEBUG - 2018-03-07 18:33:13 --> Total execution time: 0.2888
+INFO - 2018-03-07 18:33:16 --> Config Class Initialized
+INFO - 2018-03-07 18:33:16 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:33:16 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:33:16 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:33:16 --> URI Class Initialized
+INFO - 2018-03-07 18:33:16 --> Router Class Initialized
+INFO - 2018-03-07 18:33:16 --> Output Class Initialized
+INFO - 2018-03-07 18:33:16 --> Security Class Initialized
+DEBUG - 2018-03-07 18:33:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:33:16 --> CSRF cookie sent
+INFO - 2018-03-07 18:33:16 --> CSRF token verified
+INFO - 2018-03-07 18:33:16 --> Input Class Initialized
+INFO - 2018-03-07 18:33:16 --> Language Class Initialized
+INFO - 2018-03-07 18:33:16 --> Loader Class Initialized
+INFO - 2018-03-07 18:33:16 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:33:16 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:33:16 --> Controller Class Initialized
+INFO - 2018-03-07 18:33:16 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:33:16 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:33:16 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:33:16 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:33:16 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:33:16 --> Severity: Notice --> Trying to get property 'comment_id' of non-object C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 47
+INFO - 2018-03-07 18:33:16 --> Final output sent to browser
+DEBUG - 2018-03-07 18:33:16 --> Total execution time: 0.2658
+INFO - 2018-03-07 18:34:08 --> Config Class Initialized
+INFO - 2018-03-07 18:34:08 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:34:08 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:34:08 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:34:08 --> URI Class Initialized
+INFO - 2018-03-07 18:34:08 --> Router Class Initialized
+INFO - 2018-03-07 18:34:08 --> Output Class Initialized
+INFO - 2018-03-07 18:34:08 --> Security Class Initialized
+DEBUG - 2018-03-07 18:34:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:34:08 --> CSRF cookie sent
+INFO - 2018-03-07 18:34:08 --> Input Class Initialized
+INFO - 2018-03-07 18:34:08 --> Language Class Initialized
+INFO - 2018-03-07 18:34:08 --> Loader Class Initialized
+INFO - 2018-03-07 18:34:08 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:34:08 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:34:08 --> Controller Class Initialized
+INFO - 2018-03-07 18:34:08 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:34:08 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:34:08 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:34:08 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:34:08 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:34:08 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:34:08 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:34:08 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:34:08 --> Final output sent to browser
+DEBUG - 2018-03-07 18:34:08 --> Total execution time: 0.3098
+INFO - 2018-03-07 18:34:11 --> Config Class Initialized
+INFO - 2018-03-07 18:34:11 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:34:11 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:34:11 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:34:11 --> URI Class Initialized
+INFO - 2018-03-07 18:34:11 --> Router Class Initialized
+INFO - 2018-03-07 18:34:11 --> Output Class Initialized
+INFO - 2018-03-07 18:34:11 --> Security Class Initialized
+DEBUG - 2018-03-07 18:34:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:34:11 --> CSRF cookie sent
+INFO - 2018-03-07 18:34:11 --> CSRF token verified
+INFO - 2018-03-07 18:34:11 --> Input Class Initialized
+INFO - 2018-03-07 18:34:11 --> Language Class Initialized
+INFO - 2018-03-07 18:34:11 --> Loader Class Initialized
+INFO - 2018-03-07 18:34:11 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:34:11 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:34:11 --> Controller Class Initialized
+INFO - 2018-03-07 18:34:11 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:34:11 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:34:11 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:34:11 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:34:11 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:34:11 --> Severity: Warning --> json_decode() expects parameter 1 to be string, array given C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 47
+INFO - 2018-03-07 18:34:11 --> Final output sent to browser
+DEBUG - 2018-03-07 18:34:11 --> Total execution time: 0.2807
+INFO - 2018-03-07 18:34:35 --> Config Class Initialized
+INFO - 2018-03-07 18:34:36 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:34:36 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:34:36 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:34:36 --> URI Class Initialized
+INFO - 2018-03-07 18:34:36 --> Router Class Initialized
+INFO - 2018-03-07 18:34:36 --> Output Class Initialized
+INFO - 2018-03-07 18:34:36 --> Security Class Initialized
+DEBUG - 2018-03-07 18:34:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:34:36 --> CSRF cookie sent
+INFO - 2018-03-07 18:34:36 --> Input Class Initialized
+INFO - 2018-03-07 18:34:36 --> Language Class Initialized
+INFO - 2018-03-07 18:34:36 --> Loader Class Initialized
+INFO - 2018-03-07 18:34:36 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:34:36 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:34:36 --> Controller Class Initialized
+INFO - 2018-03-07 18:34:36 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:34:36 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:34:36 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:34:36 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:34:36 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:34:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:34:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:34:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:34:36 --> Final output sent to browser
+DEBUG - 2018-03-07 18:34:36 --> Total execution time: 0.2780
+INFO - 2018-03-07 18:34:40 --> Config Class Initialized
+INFO - 2018-03-07 18:34:40 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:34:40 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:34:40 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:34:40 --> URI Class Initialized
+INFO - 2018-03-07 18:34:40 --> Router Class Initialized
+INFO - 2018-03-07 18:34:40 --> Output Class Initialized
+INFO - 2018-03-07 18:34:40 --> Security Class Initialized
+DEBUG - 2018-03-07 18:34:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:34:40 --> CSRF cookie sent
+INFO - 2018-03-07 18:34:40 --> CSRF token verified
+INFO - 2018-03-07 18:34:40 --> Input Class Initialized
+INFO - 2018-03-07 18:34:40 --> Language Class Initialized
+INFO - 2018-03-07 18:34:40 --> Loader Class Initialized
+INFO - 2018-03-07 18:34:40 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:34:40 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:34:40 --> Controller Class Initialized
+INFO - 2018-03-07 18:34:40 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:34:40 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:34:40 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:34:40 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:34:40 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:34:40 --> Final output sent to browser
+DEBUG - 2018-03-07 18:34:40 --> Total execution time: 0.2655
+INFO - 2018-03-07 18:36:59 --> Config Class Initialized
+INFO - 2018-03-07 18:36:59 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:36:59 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:36:59 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:36:59 --> URI Class Initialized
+INFO - 2018-03-07 18:36:59 --> Router Class Initialized
+INFO - 2018-03-07 18:36:59 --> Output Class Initialized
+INFO - 2018-03-07 18:36:59 --> Security Class Initialized
+DEBUG - 2018-03-07 18:36:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:36:59 --> CSRF cookie sent
+INFO - 2018-03-07 18:36:59 --> Input Class Initialized
+INFO - 2018-03-07 18:36:59 --> Language Class Initialized
+INFO - 2018-03-07 18:36:59 --> Loader Class Initialized
+INFO - 2018-03-07 18:36:59 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:36:59 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:37:00 --> Controller Class Initialized
+INFO - 2018-03-07 18:37:00 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:37:00 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:37:00 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:37:00 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:37:00 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:37:00 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:37:00 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:37:00 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:37:00 --> Final output sent to browser
+DEBUG - 2018-03-07 18:37:00 --> Total execution time: 0.2886
+INFO - 2018-03-07 18:37:03 --> Config Class Initialized
+INFO - 2018-03-07 18:37:04 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:37:04 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:37:04 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:37:04 --> URI Class Initialized
+INFO - 2018-03-07 18:37:04 --> Router Class Initialized
+INFO - 2018-03-07 18:37:04 --> Output Class Initialized
+INFO - 2018-03-07 18:37:04 --> Security Class Initialized
+DEBUG - 2018-03-07 18:37:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:37:04 --> CSRF cookie sent
+INFO - 2018-03-07 18:37:04 --> CSRF token verified
+INFO - 2018-03-07 18:37:04 --> Input Class Initialized
+INFO - 2018-03-07 18:37:04 --> Language Class Initialized
+INFO - 2018-03-07 18:37:04 --> Loader Class Initialized
+INFO - 2018-03-07 18:37:04 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:37:04 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:37:04 --> Controller Class Initialized
+INFO - 2018-03-07 18:37:04 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:37:04 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:37:04 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:37:04 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:37:04 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:37:04 --> Final output sent to browser
+DEBUG - 2018-03-07 18:37:04 --> Total execution time: 0.2827
+INFO - 2018-03-07 18:37:35 --> Config Class Initialized
+INFO - 2018-03-07 18:37:35 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:37:35 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:37:35 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:37:35 --> URI Class Initialized
+INFO - 2018-03-07 18:37:35 --> Router Class Initialized
+INFO - 2018-03-07 18:37:35 --> Output Class Initialized
+INFO - 2018-03-07 18:37:35 --> Security Class Initialized
+DEBUG - 2018-03-07 18:37:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:37:35 --> CSRF cookie sent
+INFO - 2018-03-07 18:37:35 --> Input Class Initialized
+INFO - 2018-03-07 18:37:35 --> Language Class Initialized
+INFO - 2018-03-07 18:37:36 --> Loader Class Initialized
+INFO - 2018-03-07 18:37:36 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:37:36 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:37:36 --> Controller Class Initialized
+INFO - 2018-03-07 18:37:36 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:37:36 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:37:36 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:37:36 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:37:36 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:37:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:37:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:37:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:37:36 --> Final output sent to browser
+DEBUG - 2018-03-07 18:37:36 --> Total execution time: 0.3115
+INFO - 2018-03-07 18:37:39 --> Config Class Initialized
+INFO - 2018-03-07 18:37:39 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:37:39 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:37:39 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:37:39 --> URI Class Initialized
+INFO - 2018-03-07 18:37:39 --> Router Class Initialized
+INFO - 2018-03-07 18:37:39 --> Output Class Initialized
+INFO - 2018-03-07 18:37:39 --> Security Class Initialized
+DEBUG - 2018-03-07 18:37:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:37:39 --> CSRF cookie sent
+INFO - 2018-03-07 18:37:39 --> CSRF token verified
+INFO - 2018-03-07 18:37:39 --> Input Class Initialized
+INFO - 2018-03-07 18:37:39 --> Language Class Initialized
+INFO - 2018-03-07 18:37:39 --> Loader Class Initialized
+INFO - 2018-03-07 18:37:39 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:37:39 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:37:39 --> Controller Class Initialized
+INFO - 2018-03-07 18:37:39 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:37:39 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:37:39 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:37:39 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:37:39 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:37:39 --> Final output sent to browser
+DEBUG - 2018-03-07 18:37:39 --> Total execution time: 0.2804
+INFO - 2018-03-07 18:39:10 --> Config Class Initialized
+INFO - 2018-03-07 18:39:10 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:39:10 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:39:10 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:39:10 --> URI Class Initialized
+INFO - 2018-03-07 18:39:10 --> Router Class Initialized
+INFO - 2018-03-07 18:39:10 --> Output Class Initialized
+INFO - 2018-03-07 18:39:10 --> Security Class Initialized
+DEBUG - 2018-03-07 18:39:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:39:10 --> CSRF cookie sent
+INFO - 2018-03-07 18:39:10 --> Input Class Initialized
+INFO - 2018-03-07 18:39:10 --> Language Class Initialized
+INFO - 2018-03-07 18:39:10 --> Loader Class Initialized
+INFO - 2018-03-07 18:39:10 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:39:10 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:39:10 --> Controller Class Initialized
+INFO - 2018-03-07 18:39:10 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:39:10 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:39:10 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:39:10 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:39:10 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:39:10 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:39:10 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:39:10 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:39:10 --> Final output sent to browser
+DEBUG - 2018-03-07 18:39:10 --> Total execution time: 0.2833
+INFO - 2018-03-07 18:39:14 --> Config Class Initialized
+INFO - 2018-03-07 18:39:14 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:39:14 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:39:14 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:39:14 --> URI Class Initialized
+INFO - 2018-03-07 18:39:14 --> Router Class Initialized
+INFO - 2018-03-07 18:39:14 --> Output Class Initialized
+INFO - 2018-03-07 18:39:14 --> Security Class Initialized
+DEBUG - 2018-03-07 18:39:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:39:14 --> CSRF cookie sent
+INFO - 2018-03-07 18:39:14 --> CSRF token verified
+INFO - 2018-03-07 18:39:14 --> Input Class Initialized
+INFO - 2018-03-07 18:39:14 --> Language Class Initialized
+ERROR - 2018-03-07 18:39:14 --> Severity: error --> Exception: syntax error, unexpected '}', expecting end of file C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\controllers\Board_comment.php 108
+INFO - 2018-03-07 18:39:39 --> Config Class Initialized
+INFO - 2018-03-07 18:39:39 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:39:39 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:39:39 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:39:39 --> URI Class Initialized
+INFO - 2018-03-07 18:39:39 --> Router Class Initialized
+INFO - 2018-03-07 18:39:39 --> Output Class Initialized
+INFO - 2018-03-07 18:39:39 --> Security Class Initialized
+DEBUG - 2018-03-07 18:39:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:39:39 --> CSRF cookie sent
+INFO - 2018-03-07 18:39:39 --> Input Class Initialized
+INFO - 2018-03-07 18:39:39 --> Language Class Initialized
+INFO - 2018-03-07 18:39:39 --> Loader Class Initialized
+INFO - 2018-03-07 18:39:39 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:39:39 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:39:39 --> Controller Class Initialized
+INFO - 2018-03-07 18:39:39 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:39:39 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:39:39 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:39:39 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:39:39 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:39:39 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:39:39 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:39:39 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:39:39 --> Final output sent to browser
+DEBUG - 2018-03-07 18:39:39 --> Total execution time: 0.2929
+INFO - 2018-03-07 18:39:44 --> Config Class Initialized
+INFO - 2018-03-07 18:39:44 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:39:44 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:39:44 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:39:44 --> URI Class Initialized
+INFO - 2018-03-07 18:39:44 --> Router Class Initialized
+INFO - 2018-03-07 18:39:44 --> Output Class Initialized
+INFO - 2018-03-07 18:39:44 --> Security Class Initialized
+DEBUG - 2018-03-07 18:39:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:39:44 --> CSRF cookie sent
+INFO - 2018-03-07 18:39:44 --> CSRF token verified
+INFO - 2018-03-07 18:39:44 --> Input Class Initialized
+INFO - 2018-03-07 18:39:44 --> Language Class Initialized
+INFO - 2018-03-07 18:39:44 --> Loader Class Initialized
+INFO - 2018-03-07 18:39:44 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:39:44 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:39:44 --> Controller Class Initialized
+INFO - 2018-03-07 18:39:44 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:39:44 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:39:44 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:39:44 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:39:44 --> Form Validation Class Initialized
+ERROR - 2018-03-07 18:39:44 --> Severity: Notice --> Undefined index: count C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\models\Board_model.php 172
+ERROR - 2018-03-07 18:39:44 --> Query error: Column 'comments' cannot be null - Invalid query: UPDATE `board` SET `comments` = NULL
+WHERE `board_id` = '17'
+INFO - 2018-03-07 18:39:44 --> Language file loaded: language/english/db_lang.php
+INFO - 2018-03-07 18:48:16 --> Config Class Initialized
+INFO - 2018-03-07 18:48:16 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:16 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:16 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:16 --> URI Class Initialized
+INFO - 2018-03-07 18:48:16 --> Router Class Initialized
+INFO - 2018-03-07 18:48:16 --> Output Class Initialized
+INFO - 2018-03-07 18:48:16 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:16 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:16 --> Input Class Initialized
+INFO - 2018-03-07 18:48:16 --> Language Class Initialized
+INFO - 2018-03-07 18:48:16 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:16 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:16 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:16 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:16 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:16 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:16 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:16 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:16 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:16 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:16 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:48:16 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:17 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:17 --> Total execution time: 0.3180
+INFO - 2018-03-07 18:48:21 --> Config Class Initialized
+INFO - 2018-03-07 18:48:21 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:21 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:21 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:21 --> URI Class Initialized
+INFO - 2018-03-07 18:48:21 --> Router Class Initialized
+INFO - 2018-03-07 18:48:21 --> Output Class Initialized
+INFO - 2018-03-07 18:48:21 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:21 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:21 --> CSRF token verified
+INFO - 2018-03-07 18:48:21 --> Input Class Initialized
+INFO - 2018-03-07 18:48:21 --> Language Class Initialized
+INFO - 2018-03-07 18:48:21 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:21 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:21 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:21 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:21 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:21 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:21 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:21 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:21 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:21 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:21 --> Total execution time: 0.2961
+INFO - 2018-03-07 18:48:26 --> Config Class Initialized
+INFO - 2018-03-07 18:48:26 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:26 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:26 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:26 --> URI Class Initialized
+INFO - 2018-03-07 18:48:26 --> Router Class Initialized
+INFO - 2018-03-07 18:48:26 --> Output Class Initialized
+INFO - 2018-03-07 18:48:26 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:26 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:26 --> Input Class Initialized
+INFO - 2018-03-07 18:48:26 --> Language Class Initialized
+INFO - 2018-03-07 18:48:26 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:26 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:26 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:26 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:27 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:27 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:27 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:27 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:27 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:27 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:48:27 --> Pagination Class Initialized
+INFO - 2018-03-07 18:48:27 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:48:27 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:27 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:27 --> Total execution time: 0.3201
+INFO - 2018-03-07 18:48:32 --> Config Class Initialized
+INFO - 2018-03-07 18:48:32 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:32 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:32 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:32 --> URI Class Initialized
+INFO - 2018-03-07 18:48:32 --> Router Class Initialized
+INFO - 2018-03-07 18:48:32 --> Output Class Initialized
+INFO - 2018-03-07 18:48:32 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:32 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:32 --> Input Class Initialized
+INFO - 2018-03-07 18:48:32 --> Language Class Initialized
+INFO - 2018-03-07 18:48:32 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:32 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:32 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:32 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:33 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:33 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:33 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:33 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:33 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:33 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:33 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:48:33 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:33 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:33 --> Total execution time: 0.2907
+INFO - 2018-03-07 18:48:35 --> Config Class Initialized
+INFO - 2018-03-07 18:48:35 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:35 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:35 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:35 --> URI Class Initialized
+INFO - 2018-03-07 18:48:35 --> Router Class Initialized
+INFO - 2018-03-07 18:48:35 --> Output Class Initialized
+INFO - 2018-03-07 18:48:36 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:36 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:36 --> Input Class Initialized
+INFO - 2018-03-07 18:48:36 --> Language Class Initialized
+INFO - 2018-03-07 18:48:36 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:36 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:36 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:36 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:36 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:36 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:36 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:36 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:36 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:48:36 --> Pagination Class Initialized
+INFO - 2018-03-07 18:48:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:48:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:36 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:36 --> Total execution time: 0.3176
+INFO - 2018-03-07 18:48:37 --> Config Class Initialized
+INFO - 2018-03-07 18:48:37 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:37 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:37 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:37 --> URI Class Initialized
+INFO - 2018-03-07 18:48:37 --> Router Class Initialized
+INFO - 2018-03-07 18:48:37 --> Output Class Initialized
+INFO - 2018-03-07 18:48:37 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:37 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:37 --> Input Class Initialized
+INFO - 2018-03-07 18:48:37 --> Language Class Initialized
+INFO - 2018-03-07 18:48:37 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:37 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:37 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:37 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:37 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:37 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:37 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:37 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:37 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:37 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:37 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:48:37 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:37 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:37 --> Total execution time: 0.3081
+INFO - 2018-03-07 18:48:42 --> Config Class Initialized
+INFO - 2018-03-07 18:48:42 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:42 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:42 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:42 --> URI Class Initialized
+INFO - 2018-03-07 18:48:42 --> Router Class Initialized
+INFO - 2018-03-07 18:48:42 --> Output Class Initialized
+INFO - 2018-03-07 18:48:42 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:42 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:42 --> CSRF token verified
+INFO - 2018-03-07 18:48:42 --> Input Class Initialized
+INFO - 2018-03-07 18:48:42 --> Language Class Initialized
+INFO - 2018-03-07 18:48:42 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:42 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:42 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:42 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:42 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:42 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:42 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:42 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:42 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:42 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:42 --> Total execution time: 0.3182
+INFO - 2018-03-07 18:48:45 --> Config Class Initialized
+INFO - 2018-03-07 18:48:45 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:45 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:45 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:45 --> URI Class Initialized
+INFO - 2018-03-07 18:48:45 --> Router Class Initialized
+INFO - 2018-03-07 18:48:45 --> Output Class Initialized
+INFO - 2018-03-07 18:48:45 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:46 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:46 --> Input Class Initialized
+INFO - 2018-03-07 18:48:46 --> Language Class Initialized
+INFO - 2018-03-07 18:48:46 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:46 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:46 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:46 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:46 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:46 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:46 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:46 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:46 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:46 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:48:46 --> Pagination Class Initialized
+INFO - 2018-03-07 18:48:46 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:48:46 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:46 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:46 --> Total execution time: 0.3565
+INFO - 2018-03-07 18:48:48 --> Config Class Initialized
+INFO - 2018-03-07 18:48:48 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:48 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:48 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:48 --> URI Class Initialized
+INFO - 2018-03-07 18:48:48 --> Router Class Initialized
+INFO - 2018-03-07 18:48:48 --> Output Class Initialized
+INFO - 2018-03-07 18:48:48 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:48 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:48 --> Input Class Initialized
+INFO - 2018-03-07 18:48:48 --> Language Class Initialized
+INFO - 2018-03-07 18:48:48 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:48 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:48 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:48 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:48 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:48 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:48 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:48 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:48 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:48 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:48 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:48:48 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:48 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:48 --> Total execution time: 0.3159
+INFO - 2018-03-07 18:48:55 --> Config Class Initialized
+INFO - 2018-03-07 18:48:55 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:55 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:55 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:55 --> URI Class Initialized
+INFO - 2018-03-07 18:48:55 --> Router Class Initialized
+INFO - 2018-03-07 18:48:55 --> Output Class Initialized
+INFO - 2018-03-07 18:48:55 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:55 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:55 --> CSRF token verified
+INFO - 2018-03-07 18:48:55 --> Input Class Initialized
+INFO - 2018-03-07 18:48:55 --> Language Class Initialized
+INFO - 2018-03-07 18:48:55 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:55 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:55 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:55 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:55 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:55 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:55 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:55 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:55 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:55 --> Total execution time: 0.2792
+INFO - 2018-03-07 18:48:58 --> Config Class Initialized
+INFO - 2018-03-07 18:48:58 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:48:58 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:48:58 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:48:58 --> URI Class Initialized
+INFO - 2018-03-07 18:48:58 --> Router Class Initialized
+INFO - 2018-03-07 18:48:58 --> Output Class Initialized
+INFO - 2018-03-07 18:48:58 --> Security Class Initialized
+DEBUG - 2018-03-07 18:48:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:48:58 --> CSRF cookie sent
+INFO - 2018-03-07 18:48:58 --> Input Class Initialized
+INFO - 2018-03-07 18:48:58 --> Language Class Initialized
+INFO - 2018-03-07 18:48:58 --> Loader Class Initialized
+INFO - 2018-03-07 18:48:58 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:48:58 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:48:58 --> Controller Class Initialized
+INFO - 2018-03-07 18:48:58 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:48:58 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:48:58 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:48:58 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:48:58 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:48:58 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:48:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:48:58 --> Pagination Class Initialized
+INFO - 2018-03-07 18:48:58 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:48:58 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:48:59 --> Final output sent to browser
+DEBUG - 2018-03-07 18:48:59 --> Total execution time: 0.3062
+INFO - 2018-03-07 18:49:32 --> Config Class Initialized
+INFO - 2018-03-07 18:49:32 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:49:32 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:49:32 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:49:32 --> URI Class Initialized
+INFO - 2018-03-07 18:49:32 --> Router Class Initialized
+INFO - 2018-03-07 18:49:32 --> Output Class Initialized
+INFO - 2018-03-07 18:49:32 --> Security Class Initialized
+DEBUG - 2018-03-07 18:49:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:49:32 --> CSRF cookie sent
+INFO - 2018-03-07 18:49:32 --> Input Class Initialized
+INFO - 2018-03-07 18:49:32 --> Language Class Initialized
+INFO - 2018-03-07 18:49:32 --> Loader Class Initialized
+INFO - 2018-03-07 18:49:32 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:49:32 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:49:32 --> Controller Class Initialized
+INFO - 2018-03-07 18:49:32 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:49:32 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:49:32 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:49:32 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:49:32 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:49:32 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:49:32 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:49:32 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:49:32 --> Final output sent to browser
+DEBUG - 2018-03-07 18:49:32 --> Total execution time: 0.3118
+INFO - 2018-03-07 18:51:12 --> Config Class Initialized
+INFO - 2018-03-07 18:51:12 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:12 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:12 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:13 --> URI Class Initialized
+INFO - 2018-03-07 18:51:13 --> Router Class Initialized
+INFO - 2018-03-07 18:51:13 --> Output Class Initialized
+INFO - 2018-03-07 18:51:13 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:13 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:13 --> Input Class Initialized
+INFO - 2018-03-07 18:51:13 --> Language Class Initialized
+INFO - 2018-03-07 18:51:13 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:13 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:13 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:13 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:13 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:13 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:13 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:13 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:13 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:51:13 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:13 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:13 --> Total execution time: 0.3122
+INFO - 2018-03-07 18:51:26 --> Config Class Initialized
+INFO - 2018-03-07 18:51:26 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:26 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:26 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:26 --> URI Class Initialized
+INFO - 2018-03-07 18:51:26 --> Router Class Initialized
+INFO - 2018-03-07 18:51:26 --> Output Class Initialized
+INFO - 2018-03-07 18:51:26 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:26 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:26 --> Input Class Initialized
+INFO - 2018-03-07 18:51:26 --> Language Class Initialized
+INFO - 2018-03-07 18:51:26 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:26 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:26 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:26 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:26 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:26 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:26 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:26 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:26 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:26 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:51:26 --> Pagination Class Initialized
+INFO - 2018-03-07 18:51:26 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:51:26 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:26 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:26 --> Total execution time: 0.3701
+INFO - 2018-03-07 18:51:30 --> Config Class Initialized
+INFO - 2018-03-07 18:51:30 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:30 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:30 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:30 --> URI Class Initialized
+INFO - 2018-03-07 18:51:30 --> Router Class Initialized
+INFO - 2018-03-07 18:51:30 --> Output Class Initialized
+INFO - 2018-03-07 18:51:30 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:30 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:30 --> Input Class Initialized
+INFO - 2018-03-07 18:51:30 --> Language Class Initialized
+INFO - 2018-03-07 18:51:30 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:30 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:30 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:30 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:30 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:30 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:30 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:30 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:30 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:30 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:30 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:51:30 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:30 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:30 --> Total execution time: 0.3004
+INFO - 2018-03-07 18:51:34 --> Config Class Initialized
+INFO - 2018-03-07 18:51:34 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:34 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:34 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:34 --> URI Class Initialized
+INFO - 2018-03-07 18:51:34 --> Router Class Initialized
+INFO - 2018-03-07 18:51:34 --> Output Class Initialized
+INFO - 2018-03-07 18:51:34 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:34 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:34 --> Input Class Initialized
+INFO - 2018-03-07 18:51:34 --> Language Class Initialized
+INFO - 2018-03-07 18:51:34 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:34 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:34 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:34 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:34 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:34 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:34 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:34 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:34 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:34 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:51:34 --> Pagination Class Initialized
+INFO - 2018-03-07 18:51:34 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:51:34 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:34 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:34 --> Total execution time: 0.3153
+INFO - 2018-03-07 18:51:35 --> Config Class Initialized
+INFO - 2018-03-07 18:51:35 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:35 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:35 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:35 --> URI Class Initialized
+INFO - 2018-03-07 18:51:35 --> Router Class Initialized
+INFO - 2018-03-07 18:51:36 --> Output Class Initialized
+INFO - 2018-03-07 18:51:36 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:36 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:36 --> Input Class Initialized
+INFO - 2018-03-07 18:51:36 --> Language Class Initialized
+INFO - 2018-03-07 18:51:36 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:36 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:36 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:36 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:36 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:36 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:36 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:36 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:36 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:51:36 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:36 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:36 --> Total execution time: 0.3044
+INFO - 2018-03-07 18:51:38 --> Config Class Initialized
+INFO - 2018-03-07 18:51:38 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:38 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:38 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:38 --> URI Class Initialized
+INFO - 2018-03-07 18:51:38 --> Router Class Initialized
+INFO - 2018-03-07 18:51:38 --> Output Class Initialized
+INFO - 2018-03-07 18:51:38 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:38 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:38 --> Input Class Initialized
+INFO - 2018-03-07 18:51:38 --> Language Class Initialized
+INFO - 2018-03-07 18:51:38 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:38 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:38 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:38 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:38 --> Model "Auth_model" initialized
+INFO - 2018-03-07 18:51:38 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:38 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:38 --> Helper loaded: alert_helper
+INFO - 2018-03-07 18:51:38 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:40 --> Config Class Initialized
+INFO - 2018-03-07 18:51:40 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:40 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:40 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:40 --> URI Class Initialized
+INFO - 2018-03-07 18:51:40 --> Router Class Initialized
+INFO - 2018-03-07 18:51:40 --> Output Class Initialized
+INFO - 2018-03-07 18:51:40 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:40 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:40 --> Input Class Initialized
+INFO - 2018-03-07 18:51:40 --> Language Class Initialized
+INFO - 2018-03-07 18:51:40 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:41 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:41 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:41 --> Model "Main_model" initialized
+INFO - 2018-03-07 18:51:41 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:41 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:41 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:41 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\home/home_page.php
+INFO - 2018-03-07 18:51:41 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:41 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:41 --> Total execution time: 0.2791
+INFO - 2018-03-07 18:51:43 --> Config Class Initialized
+INFO - 2018-03-07 18:51:43 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:43 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:43 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:43 --> URI Class Initialized
+INFO - 2018-03-07 18:51:43 --> Router Class Initialized
+INFO - 2018-03-07 18:51:43 --> Output Class Initialized
+INFO - 2018-03-07 18:51:43 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:43 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:43 --> Input Class Initialized
+INFO - 2018-03-07 18:51:43 --> Language Class Initialized
+INFO - 2018-03-07 18:51:43 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:43 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:43 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:43 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:43 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:43 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:43 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:43 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:43 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:43 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2018-03-07 18:51:43 --> Pagination Class Initialized
+INFO - 2018-03-07 18:51:43 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_page.php
+INFO - 2018-03-07 18:51:43 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:43 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:43 --> Total execution time: 0.3160
+INFO - 2018-03-07 18:51:44 --> Config Class Initialized
+INFO - 2018-03-07 18:51:44 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:51:44 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:51:44 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:51:44 --> URI Class Initialized
+INFO - 2018-03-07 18:51:44 --> Router Class Initialized
+INFO - 2018-03-07 18:51:44 --> Output Class Initialized
+INFO - 2018-03-07 18:51:44 --> Security Class Initialized
+DEBUG - 2018-03-07 18:51:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:51:45 --> CSRF cookie sent
+INFO - 2018-03-07 18:51:45 --> Input Class Initialized
+INFO - 2018-03-07 18:51:45 --> Language Class Initialized
+INFO - 2018-03-07 18:51:45 --> Loader Class Initialized
+INFO - 2018-03-07 18:51:45 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:51:45 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:51:45 --> Controller Class Initialized
+INFO - 2018-03-07 18:51:45 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:51:45 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:51:45 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:51:45 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:51:45 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:51:45 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:51:45 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:51:45 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:51:45 --> Final output sent to browser
+DEBUG - 2018-03-07 18:51:45 --> Total execution time: 0.3134
+INFO - 2018-03-07 18:52:01 --> Config Class Initialized
+INFO - 2018-03-07 18:52:01 --> Hooks Class Initialized
+DEBUG - 2018-03-07 18:52:01 --> UTF-8 Support Enabled
+INFO - 2018-03-07 18:52:01 --> Utf8 Class Initialized
+INFO - 2018-03-07 18:52:01 --> URI Class Initialized
+INFO - 2018-03-07 18:52:01 --> Router Class Initialized
+INFO - 2018-03-07 18:52:01 --> Output Class Initialized
+INFO - 2018-03-07 18:52:01 --> Security Class Initialized
+DEBUG - 2018-03-07 18:52:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-03-07 18:52:01 --> CSRF cookie sent
+INFO - 2018-03-07 18:52:01 --> Input Class Initialized
+INFO - 2018-03-07 18:52:01 --> Language Class Initialized
+INFO - 2018-03-07 18:52:01 --> Loader Class Initialized
+INFO - 2018-03-07 18:52:01 --> Database Driver Class Initialized
+INFO - 2018-03-07 18:52:01 --> Session: Class initialized using 'files' driver.
+INFO - 2018-03-07 18:52:01 --> Controller Class Initialized
+INFO - 2018-03-07 18:52:01 --> Model "Board_model" initialized
+INFO - 2018-03-07 18:52:02 --> Helper loaded: url_helper
+INFO - 2018-03-07 18:52:02 --> Helper loaded: date_helper
+INFO - 2018-03-07 18:52:02 --> Helper loaded: form_helper
+INFO - 2018-03-07 18:52:02 --> Form Validation Class Initialized
+INFO - 2018-03-07 18:52:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\header.php
+INFO - 2018-03-07 18:52:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\board/board_view_page.php
+INFO - 2018-03-07 18:52:02 --> File loaded: C:\Program Files\Apache Software Foundation\Apache24\htdocs\local\application\views\footer.php
+INFO - 2018-03-07 18:52:02 --> Final output sent to browser
+DEBUG - 2018-03-07 18:52:02 --> Total execution time: 0.3047

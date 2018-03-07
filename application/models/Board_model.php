@@ -163,7 +163,7 @@ class Board_model extends CI_Model{
         //2. 
         $sql = "select count(board_id) as count from board_comment where board_id='".$arrays['board_id']."'";
         $query = $this->db->query($sql);
-        $select_result = $query->result();
+        $select_result = $query->row_array();
         
 
         //3.
@@ -216,7 +216,7 @@ class Board_model extends CI_Model{
     function get_latest_comment_id($arrays){
         $sql = "select comment_id from ".$arrays['table']." where board_id ='".$arrays['board_id']."' order by reg_date desc limit 1";
         $query = $this->db->query($sql);
-        $result = $query->result();
+        $result = $query->row_array(); //row_array()를 사용하면 쿼리결과를 배열로 가져옴
         return $result;
     }
 
