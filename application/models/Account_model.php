@@ -12,16 +12,17 @@ class Account_model extends CI_Model{
 		parent::__construct();
 	}
 
-	public function create_account($id,$password){
+	public function create_account($id,$password,$name,$email){
 		//회원가입 기능
 		$data = array(
 			'user_id' => $id,
-			'user_password' => $password
+			'user_password' => $password,
+			'user_email' => $email,
+			'user_name' => $name
 		);
 		$this->db->insert('userinfo',$data);
 		//실행한 마지막 쿼리문을 보여준다.
 		//echo $this->db->last_query();
 		return true;
 	}
-
 }

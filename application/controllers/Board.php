@@ -96,7 +96,29 @@ class Board extends CI_Controller{
     	$limit = $config['per_page'];
 
     	$data['list'] = $this->board_model->get_list('board', '', $start, $limit, $search_word);
-    	$this->load->view('board/board_page',$data);
+        
+        
+        $max = sizeof($data['list']);
+        
+        $cnt = 0;
+        foreach($data['list'] as $lt){
+            echo '<br>';
+            //echo $lt->board_id;
+            echo '<br>';
+            
+            $data['comment'][$cnt] = $this->board_model->get_comment_count($lt->board_id,$start, $limit);
+            $cnt++;
+        }
+        $cnt = 0;
+
+        
+
+        //echo var_dump($data['list']);
+        echo '<br><br>';
+        //echo var_dump($data['comment']);
+        echo '<br><br>';
+
+        $this->load->view('board/board_page',$data);
     }
 
 
@@ -144,9 +166,16 @@ class Board extends CI_Controller{
 
     # 게시물 상세 보기
     function view(){
+
+        $table = 'board';
+        $board_id = $this->uri->segment(3);
+
 		// 게시판 이름과 게시물 번호에 해당하는 게시물 가져오기
-        $data['views'] = $this->board_model->get_view('board', $this->uri->segment(3));
+        $data['views'] = $this->board_model->get_view('board', $board_id);
  
+        // 게시판 이름과 번호에 해당하는 댓글 리스트 가져오기
+        $data['comment_list'] = $this->board_model->get_comment('board_comment', $board_id);
+
         // view 호출
         $this -> load -> view('board/board_view_page', $data);
     }

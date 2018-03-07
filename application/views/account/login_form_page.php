@@ -3,6 +3,7 @@
 		<a class="brand">환영합니다. 로그인해주세요.</a>
 		<?php echo validation_errors(); ?>
 		<form action="/index.php/auth/get_login" method="post">
+			<input type="hidden" id="<?php echo $this->security->get_csrf_token_name(); ?>" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>"/>
 			<input type="text" id="id" name="id" value="" placeholder="ID"/>
 			<br>
 			<input type="password" id="password" name="password" value="" placeholder="PASSWORD"/><br>

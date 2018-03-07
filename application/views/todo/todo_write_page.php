@@ -21,6 +21,7 @@
                 </header>
                 <?php echo validation_errors(); ?>
                 <form class="form-horizontal" method="post" action="" id="write_action">
+                    <input type="hidden" id="<?php echo $this->security->get_csrf_token_name(); ?>" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>"/>
                     <fieldset>
                         <div class="control-group">
                             <label class="control-label" for="input01">내용</label>

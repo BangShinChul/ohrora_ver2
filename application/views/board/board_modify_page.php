@@ -17,6 +17,7 @@
 </script>
 <article id="board_area">
     <form class="form-horizontal" method="post" action="" id="write_action">
+        <input type="hidden" id="<?php echo $this->security->get_csrf_token_name(); ?>" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>"/>
         <fieldset>
             <legend>게시물 수정</legend>
                 <div class="control-group">

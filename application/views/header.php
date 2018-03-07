@@ -102,10 +102,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<li>
 						<a href="/index.php/main/">Home</a>
 					</li>
-					
+					<li>
+						<a href="/index.php/main/">About Us</a>
+					</li>
+					<li>
+						<a href="#">Shop</a>
+					</li>
+					<li>
+						<a href="#">Live</a>
+					</li>
+					<li>
+						<a href="#">Review</a>
+					</li>
+
 					<?php 
 						if(@$this->session->userdata('logged_in') == TRUE) :
 					?>
+					<li>
+						<a href="#" class="do_account">My Account</a>
+					</li>
 					<li>
 						<a href="/index.php/auth/get_logout" class="do_logout">Logout</a>
 					</li>
@@ -116,16 +131,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<a href="/index.php/auth/" class="do_login">Login</a>
 					</li>
 					<?php endif; ?>
-					
+
 					<li>
 						<a href="/index.php/todo/">TODO</a>
 					</li>
 					<li>
 						<a href="/index.php/board/">게시판</a>
-					</li>
-					<li>
-						<a href="#">Menu 4</a>
-					</li>
+					</li>					
 				</ul>
 			</div>
 		</header>
