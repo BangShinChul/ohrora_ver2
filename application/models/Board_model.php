@@ -55,9 +55,8 @@ class Board_model extends CI_Model{
     */
     function insert_board($arrays){
         $insert_array = array(
-            'board_pid' => 0,
-            'user_id' => 'advisor',
-            'user_name' => $arrays['user_id'],
+            'user_id' => $arrays['user_id'],
+            'user_name' => $arrays['user_name'],
             'subject' => $arrays['subject'],
             'contents' => $arrays['contents'],
             'reg_date' => date("Y-m-d H:i:s")
@@ -77,8 +76,10 @@ class Board_model extends CI_Model{
      */
     function modify_board($arrays){
         $modify_array = array(
+            'board_status' => 1,
             'subject' => $arrays['subject'],
-            'contents' => $arrays['contents']
+            'contents' => $arrays['contents'],
+            'reg_date' => date("Y-m-d H:i:s")
         );
 
         $where = array(
@@ -98,10 +99,18 @@ class Board_model extends CI_Model{
      * 
      */
     function delete_board($id){
+        //게시글 지우고 게시글의 댓글들도 모두 지우기
+
         $delete_id = array(
             'board_id' => $id
         );
-        $result = $this->db->delete('board',$delete_id);
+
+        $comment_delete_result = $this->db->delete('board_comment',$delete_id);
+
+        if($comment_delete_result){
+            $result = $this->db->delete('board',$delete_id);    
+        }
+
         return $result;
     }
 
@@ -118,16 +127,8 @@ class Board_model extends CI_Model{
         return $result;
     }
 
+    /*
     function get_comment_count($id, $offset = '', $limit = ''){
-
-        /*
-        if ($limit != '' OR $offset != '') {
-            // 페이징이 있을 경우 처리
-            $limit_query = ' LIMIT ' . $offset . ', ' . $limit;
-        }
-        */
-
-        //$sql = "select board_id, count(*) as count from ".$table." where board_id= '".$id."'";
 
         $limit_query = '';
  
@@ -140,6 +141,12 @@ class Board_model extends CI_Model{
         $query = $this->db->query($sql);
         $result = $query->result();
         return $result;    
+    }
+    */
+
+    function get_comment_count($id){
+        $this->db->select('comments');
+        return $this->db->get_where('board', array('board_id' => $id))->row_array();
     }
 
     function insert_comment($arrays){
@@ -178,40 +185,17 @@ class Board_model extends CI_Model{
         if($update_result){
             return $result;
         }else{
-            echo '<script>alert("insert comment error");</script>';
+            return null;
         }
     }
 
-    // function update_comment($add_or_del, $board_id){
-    //     // $add_or_del 이 'add' 이면 +1, 'del' 이면 -1
-
-    //     $this->db->select('comments');        
-    //     $get_comments = $this->db->get_where('board', array('board_id' => $arrays['board_id']))->row();
-
-    //     if($add_or_del == 'add'){
-    //         $comments_count = (int)$get_comments + 1;
-    //     }elseif($add_or_del == 'del'){
-    //         if($get_comments != 0){
-    //             $comments_count = (int)$get_comments - 1;    
-    //         }else{
-    //             $comments_count = 0;
-    //         }
-            
-    //     }
-
-    //     $modify_array = array(
-    //         'comments' => $comments_count,
-    //     );
-
-    //     $where = array(
-    //         'board_id' => $arrays['board_id']
-    //     );
-
-    //     $result = $this->db->update('board', $modify_array, $where);
-    //     return $result;
-    // } 
-
-
+    function modify_comment($arrays){
+        $modify_array = array(
+            'comment_pk' => $arrays['comment_pk'],
+            'comment_contents' => $arrays['comment_contents'],
+            'reg_date' => date("Y-m-d H:i:s")
+        );
+    }
 
     function get_latest_comment_id($arrays){
         $sql = "select comment_id from ".$arrays['table']." where board_id ='".$arrays['board_id']."' order by reg_date desc limit 1";

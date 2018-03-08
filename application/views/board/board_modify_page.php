@@ -31,9 +31,10 @@
                     </div>
                     <div class="form-actions">
                         <button type="submit" class="btn btn-primary" id="write_btn">수정</button>
-                        <button class="btn" onclick="document.location.reload()">취소</button>
+                        <button class="btn" onclick="window.history.back(-1); return false;">취소</button>
                     </div>
                 </div>
         </fieldset>
     </form>
+
 </article>

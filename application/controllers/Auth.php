@@ -49,6 +49,8 @@ class Auth extends CI_Controller{
 			if($result){
 				$newdata = array(
 					'user_id' => $result->user_id,
+					'user_name' => $result->user_name,
+					'user_email' => $result->user_email,
 					'logged_in' => TRUE	
 				);
 

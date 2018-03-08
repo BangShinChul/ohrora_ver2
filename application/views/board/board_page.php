@@ -45,7 +45,7 @@ foreach($list as $lt)
             <tr>
                 <th scope="row"><?php echo $lt -> board_id;?></th>
                 <td><a rel="external" href="/index.php/<?php echo $this -> uri -> segment(1); ?>/view/<?php echo $lt -> board_id; ?>"> <?php echo $lt -> subject;?></a></td>
-                <td><?php echo $lt -> user_name; ?></td>
+                <td><?php echo $lt -> user_name; ?>(<?php echo $lt -> user_id; ?>)</td>
                 <td><?php echo $lt -> hits; ?></td>
                 <td><?php echo $lt -> comments; ?></td>
                 <td>

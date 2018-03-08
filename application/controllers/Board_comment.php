@@ -59,6 +59,8 @@ class Board_comment extends CI_Controller{
                 if ($result) {
                     $sql = "SELECT * FROM ". $table ." WHERE board_id = '". $board_id . "' ORDER BY comment_id DESC";
                     $query = $this -> db -> query($sql);
+
+                    $commnets_cnt = $this->board_model->get_comment_count($board_id);
                 ?>
                 <table cellspacing="0" cellpadding="0" class="table table-striped">
                     <tbody>
@@ -89,6 +91,7 @@ class Board_comment extends CI_Controller{
                     ?>
                     </tbody>
                 </table>
+
                 <?php
                 } else {
                     // 글 실패시

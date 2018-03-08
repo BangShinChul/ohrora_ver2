@@ -1,0 +1,56 @@
+DB name : bangshinchul
+
+DB Tables : 
+
+
+<userinfo>
+
+create table userinfo(
+user_id varchar(16) not null primary key,
+user_password varchar(32) not null,
+user_email varchar(32) not null,
+user_name varchar(15) not null
+);
+
+
+<board>
+
+create table board(
+board_id int(10) not null auto_increment primary key,
+board_status int(1) not null default '0',
+user_id varchar(16) not null,
+user_name varchar(15) not null,
+subject varchar(50) not null,
+contents text not null,
+hits int(10) not null default '0',
+comments int(10) not null default '0',
+reg_date datetime not null
+);
+
+
+<board_comment>
+
+create table board_comment(
+comment_pk varchar(10) not null primary key,
+comment_status int(1) not null default '0',
+board_id int(10) not null,
+comment_id int(10) not null,
+user_id varchar(16) not null,
+comment_contents text not null,
+reg_date datetime not null
+);
+
+status :
+0이면 기본
+1이면 수정된 글/댓글
+나머지는 차차 추가해도될듯
+
+<todo>
+
+create table todo (
+id int(10) not null auto_increment primary key,
+content varchar(200) null,
+created_on date null,
+due_date date null,
+used int(1) not null default '1'
+);

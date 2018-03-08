@@ -20,7 +20,6 @@ $(document).ready(function(){
                     }else if(xhr.responseText == 9000){
                         alert('댓글을 입력하시려면 로그인이 필요합니다.');
                     }else{
-                        alert($('#comment_area').html());
                         $('#comment_area').html(xhr.responseText);
                         $('#input01').val('');
                     }
@@ -42,9 +41,11 @@ $(document).ready(function(){
         <thead>
             <tr>
                 <th scope="col"><?php echo $views -> subject;?></th>
-                <th scope="col">이름: <?php echo $views -> user_name;?></th>
+                <th scope="col">작성자: <?php echo $views -> user_name;?>(<?php echo $views -> user_id;?>)</th>
                 <th scope="col">조회수: <?php echo $views -> hits;?></th>
-                <th scope="col">등록일: <?php echo $views -> reg_date;?></th>
+                <th scope="col">등록일: <?php echo $views -> reg_date;?><?php if($views->board_status == '1') : ?>(수정됨)<?php endif; ?>
+
+                </th>
             </tr>
         </thead>
         <tbody>
@@ -60,7 +61,7 @@ $(document).ready(function(){
                     <a href="/index.php/board/board_lists" class="btn btn-primary">목록 </a>
 
                     <?php 
-                        if( (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == $views -> user_name) || (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == 'admin') ) :
+                        if( (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == $views -> user_id) || (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == 'admin') ) :
                     ?>
                     <a href="/index.php/board/board_modify/<?php echo $this -> uri -> segment(3);?>" class="btn btn-warning"> 수정 </a>
                     <a href="/index.php/board/board_delete/<?php echo $this -> uri -> segment(3);?>" class="btn btn-danger"> 삭제 </a>

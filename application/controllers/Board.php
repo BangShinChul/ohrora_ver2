@@ -97,27 +97,6 @@ class Board extends CI_Controller{
 
     	$data['list'] = $this->board_model->get_list('board', '', $start, $limit, $search_word);
         
-        
-        $max = sizeof($data['list']);
-        
-        $cnt = 0;
-        foreach($data['list'] as $lt){
-            echo '<br>';
-            //echo $lt->board_id;
-            echo '<br>';
-            
-            $data['comment'][$cnt] = $this->board_model->get_comment_count($lt->board_id,$start, $limit);
-            $cnt++;
-        }
-        $cnt = 0;
-
-        
-
-        //echo var_dump($data['list']);
-        echo '<br><br>';
-        //echo var_dump($data['comment']);
-        echo '<br><br>';
-
         $this->load->view('board/board_page',$data);
     }
 
@@ -216,6 +195,7 @@ class Board extends CI_Controller{
                     'subject' => $this->input->post('subject', TRUE),
                     'contents' => $this->input->post('contents', TRUE),
                     'user_id' => $this->session->userdata('user_id'),
+                    'user_name' => $this->session->userdata('user_name'),
                     'table' => 'board'
                 );
 
