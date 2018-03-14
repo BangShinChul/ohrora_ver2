@@ -121,7 +121,7 @@ class Board_model extends CI_Model{
     @return array
     */
     function get_comment($table, $id){
-        $sql = "select * from ".$table." where board_id = '". $id . "' order by reg_date desc";
+        $sql = "select * from ".$table." where board_id = '".$id."' order by reg_date desc";
         $query = $this->db->query($sql);
         $result = $query->result();
         return $result;

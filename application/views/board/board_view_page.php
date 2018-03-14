@@ -1,6 +1,45 @@
 <script type="text/javascript" src="/static/js/httpRequest.js"></script>
 <script>
-$(document).ready(function(){
+    function modifyComment(){
+        alert("modify comment");
+    }
+
+
+    function deleteComment(){
+        alert("delete comment");
+    }
+
+</script>
+
+<script>
+$(document).ready(function(){    
+
+    //해당 게시글의 comment가 있는지 확인 후 jquery load로 댓글들을 가져옴
+    //$('#comment_area').load('index.php/board/test');
+    
+    function comment_refresh(){
+        $.ajax({
+            url: '/index.php/board_comment/ajax_comment_get',
+            type: 'POST',
+            data: {
+                '<?php echo $this->security->get_csrf_token_name(); ?>': '<?php echo $this->security->get_csrf_hash(); ?>',
+                'board_id': '<?php echo $this->uri->segment(3); ?>'
+            },
+            dataType: 'html',
+            success: function(data){
+                $('#comment_area').html(data);
+                // var auto_refresh = setInterval(function(){
+                //     $('#comment_area').html(data);
+                // }, 3000);
+            },
+            error: function(){
+                alert("comment error");
+            }
+        })
+    }
+
+    //comment_refresh();
+
     $('#comment_submit').click(function(){
         $.ajax({
             url: '/index.php/board_comment/ajax_comment_add',
@@ -11,6 +50,12 @@ $(document).ready(function(){
                 'board_id': '<?php echo $this->uri->segment(3); ?>'
             },
             dataType: 'html',
+            success: function(data){
+                alert("success : "+data);
+            },
+            error: function(error){
+                alert("error : "+error);
+            },
             complete: function(xhr, textStatus){
                 if(textStatus == 'success'){
                     if(xhr.responseText == 1000){
@@ -28,8 +73,54 @@ $(document).ready(function(){
         })
     });
 
-});    
 
+
+
+
+    // 이건 완벽하게 됨
+    // $("#comment_modify").click(function(){
+
+    //     var s = $("#comment_modify").attr('data');
+
+    //     if(s==null){
+    //         $("#comment_modify").html('수정완료');
+    //         $("#comment_modify").attr('data','comment_modify_success');
+            
+    //         $("#comment_delete").html('취소');
+    //         $("#comment_delete").attr('data','comment_modify_cancel');
+    //         alert("댓글 수정");
+    //     }else{
+    //         if(s=='comment_modify_success'){
+    //             alert("댓글 수정 완료");
+    //             $("#comment_modify").html('수정');
+    //             $("#comment_modify").removeAttr('data','comment_modify_success');
+            
+    //             $("#comment_delete").html('삭제');
+    //             $("#comment_delete").removeAttr('data','comment_modify_cancel');
+    //         }
+    //     }
+        
+    // });
+
+    // $("#comment_delete").click(function(){
+
+    //     var c = $("#comment_delete").attr('data');
+        
+    //     if(c==null){
+    //         alert("댓글 삭제");
+    //     }else{
+    //         if(c=='comment_modify_cancel'){
+    //             $("#comment_modify").html('수정');
+    //             $("#comment_modify").removeAttr('data','comment_modify_success');
+            
+    //             $("#comment_delete").html('삭제');
+    //             $("#comment_delete").removeAttr('data','comment_modify_cancel');
+    //             alert("수정 취소, 댓글 삭제버튼으로 변경");
+    //         }
+    //     }
+    // });
+
+});    
 </script>
 
 
@@ -93,35 +184,9 @@ $(document).ready(function(){
     <?php 
     endif;
     ?>
+
     <p>댓글 <?php echo $views -> comments; ?></p>
     <div id="comment_area">
-        <table cellpadding="0" cellspacing="0" class="table table-striped">
-            <tbody>
-                <?php 
-                if(isset($comment_list)){
-                    foreach ($comment_list as $lt) {
-                ?>
-                    <tr>
-                        <th scope="row"><?php echo $lt->user_id; ?></th>
-                        <td><?php echo $lt->comment_contents; ?></td>
-                        <td>
-                            <?php 
-                            if( (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == $lt->user_id) || (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == 'admin') ) :
-                            ?>
-                            <a href="/index.php/board_comment/ajax_comment_delete/<?php echo $this -> uri -> segment(3);?>" class="btn btn-warning"> 수정 </a>
-                            <a href="/index.php/board_comment/ajax_comment_delete/<?php echo $this -> uri -> segment(3);?>" class="btn btn-danger"> 삭제 </a>
-                            <?php endif; ?>
-                        <td>
-                            <time datatime="<?php echo mdate('%Y-%M-%J',human_to_unix($lt->reg_date)); ?>">
-                                <?php echo $lt->reg_date; ?>
-                            </time>
-                        </td>
-                    </tr>
-                <?php
-                    }
-                }
-                ?>
-            </tbody>
-        </table>
+
     </div>
 </article>

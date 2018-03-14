@@ -39,54 +39,43 @@ class Auth extends CI_Controller{
 			$this->form_validation->set_rules('id','ID','required');
 			$this->form_validation->set_rules('password','Password','required');
 
-			$auth_data = array(
-				'user_id' => $id,
-				'password' => $password
-			);
-
-			$result = $this->auth_model->get_check($auth_data);
-
-			if($result){
-				$newdata = array(
-					'user_id' => $result->user_id,
-					'user_name' => $result->user_name,
-					'user_email' => $result->user_email,
-					'logged_in' => TRUE	
-				);
-
-				$this->session->set_userdata($newdata);
-
-				alert('로그인 되었습니다.', '/index.php/main');
-				exit;
-			}else{
-				echo '<p style="text-align:center; color:red;">ID와 PASSWORD가 일치하지 않습니다.</p>';
-				$this->load->view('account/login_form_page');
-				exit;
-			}
-
 			if($this->form_validation->run() == FALSE){//사용자가 입력한 정보를 유효성검사함
 				//validation이 유효하지않은 경우
 				$this->load->view('account/login_form_page');
 			}else{
 				//validation이 유효한 경우
 				//model을 통해 DB의 값 조회 및 체크 
-				$login_info = $this->auth_model->account_check($id);
 				
-				if($login_info != null){ //select 결과물이 있을때
-					if($password == $login_info->user_password){
-						//입력한 비밀번호가 DB에 저장된 id의 비밀번호와 같은경우
-						//로그인 완료 페이지를 보여줌
-						$this->load->view('home/main_page', array('login_info'=>$login_info));
+				$auth_data = array(
+					'user_id' => $id,
+					'password' => $password
+				);
+
+				$result = $this->auth_model->get_check($auth_data);
+				
+				if($result){
+					if($result['user_password'] == $password){
+						$newdata = array(
+							'user_id' => $result['user_id'],
+							'user_name' => $result['user_name'],
+							'user_email' => $result['user_email'],
+							'logged_in' => TRUE	
+						);
+						$this->session->set_userdata($newdata);
+						alert('로그인 되었습니다.', '/index.php/main');
+						exit;
 					}else{
-						//입력한 비밀번호가 DB에 저장된 id의 비밀번호와 다른경우
-						//에러를 보여주고 다시 form 호출
-						echo '<p style="text-align:center; color:red;">ID와 PASSWORD가 일치하지 않습니다.</p>';
-						$this->load->view('account/login_form_page');
-					}			
-				}else{//select 결과물이 없을때
-					echo '<p style="text-align:center; font-weight:bold;">해당 계정이 존재하지 않습니다.</p>';
-					$this->load->view('account/login_form_page');
-				}	
+						//echo '<p style="text-align:center; color:red;">ID와 PASSWORD가 일치하지 않습니다.</p>';
+						//$this->load->view('account/login_form_page');
+						alert('ID와 PASSWORD가 일치하지 않습니다.', '/index.php/auth/get_login');
+						exit;
+					}
+				}else{
+					//echo '<p style="text-align:center; color:red;">해당 정보와 일치하는 계정이 없습니다.</p>';
+					//$this->load->view('account/login_form_page');
+					alert('해당 정보와 일치하는 계정이 없습니다.', '/index.php/auth/get_login');
+					exit;
+				}
 			}
 		}else{
 			$this->load->view('account/login_form_page');

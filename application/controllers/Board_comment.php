@@ -20,6 +20,22 @@ class Board_comment extends CI_Controller{
     
     }
 
+    public function ajax_comment_get(){
+        $id = $this->input->post('board_id');
+        $board_id = $this->uri->segment(3);
+        if($board_id){
+            $data['board_id'] = $board_id;
+            $data['comment_list'] = $this->board_model->get_comment('board_comment', $board_id);
+            $this->load->view('board/board_comment_page',$data);
+        }elseif($id){
+            $data['board_id'] = $id;
+            $data['comment_list'] = $this->board_model->get_comment('board_comment', $id);
+            $this->load->view('board/board_comment_page',$data); 
+        }else{
+            $this->load->view('board/board_comment_page');
+        }
+    }
+
     public function ajax_comment_add(){
         if(@$this->session->userdata('logged_in') == TRUE){
             // 로그인 되어있을 시 
@@ -57,42 +73,8 @@ class Board_comment extends CI_Controller{
                 $result = $this->board_model->insert_comment($write_data);
 
                 if ($result) {
-                    $sql = "SELECT * FROM ". $table ." WHERE board_id = '". $board_id . "' ORDER BY comment_id DESC";
-                    $query = $this -> db -> query($sql);
-
-                    $commnets_cnt = $this->board_model->get_comment_count($board_id);
-                ?>
-                <table cellspacing="0" cellpadding="0" class="table table-striped">
-                    <tbody>
-                    <?php
-                    foreach ($query -> result() as $lt) {
-                    ?>
-                        <tr>
-                            <th scope="row">
-                                <?php echo $lt -> user_id;?>
-                            </th>
-                            <td><?php echo $lt -> comment_contents;?></td>
-                            <td>
-                            <?php 
-                            if( (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == $lt->user_id) || (@$this->session->userdata('logged_in') == TRUE && $this->session->userdata('user_id') == 'admin') ) :
-                            ?>
-                            <a href="/index.php/board_comment/ajax_comment_modify/<?php echo $this -> uri -> segment(3);?>" class="btn btn-warning"> 수정 </a>
-                            <a href="/index.php/board_comment/ajax_comment_delete/<?php echo $this -> uri -> segment(3);?>" class="btn btn-danger"> 삭제 </a>
-                            <?php endif; ?>
-                            <td>
-                            <td>
-                                <time datetime="<?php echo mdate("%Y-%M-%j", human_to_unix($lt->reg_date));?>">
-                                    <?php echo $lt -> reg_date;?>
-                                </time>
-                            </td>
-                        </tr>
-                    <?php
-                    }
-                    ?>
-                    </tbody>
-                </table>
-
-                <?php
+                    $board_id = $this->uri->segment(3);
+                    $this->load->view('/index.php/board/view/');
                 } else {
                     // 글 실패시
                     echo "2000";
@@ -106,5 +88,15 @@ class Board_comment extends CI_Controller{
             echo "9000";
         }
         
+    }
+
+
+    function ajax_comment_modify(){
+        echo "modify";
+    }
+
+
+    function ajax_comment_delete(){
+        echo "delete";
     }
 }
